@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1B3A6B"/>
+      <stop offset="100%" style="stop-color:#2a5298"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C9A84C"/>
+      <stop offset="100%" style="stop-color:#e8c96a"/>
+    </linearGradient>
+    <clipPath id="circle"><circle cx="100" cy="100" r="98"/></clipPath>
+  </defs>
+
+  <!-- Fondo -->
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+
+  <!-- Cuerpo / traje -->
+  <ellipse cx="100" cy="175" rx="55" ry="38" fill="#0f2244" clip-path="url(#circle)"/>
+  <path d="M66 160 Q100 148 134 160 L140 200 L60 200 Z" fill="#1B3A6B" clip-path="url(#circle)"/>
+  <!-- Corbata dorada -->
+  <path d="M97 148 L100 162 L103 148 L101 142 L99 142 Z" fill="url(#gold)"/>
+
+  <!-- Cara -->
+  <ellipse cx="100" cy="98" rx="34" ry="38" fill="#d4956a"/>
+
+  <!-- Cabello -->
+  <path d="M66 85 Q68 55 100 52 Q132 55 134 85 Q130 68 100 65 Q70 68 66 85 Z" fill="#2c1810"/>
+
+  <!-- Ojos -->
+  <ellipse cx="88" cy="92" rx="5" ry="5.5" fill="#fff"/>
+  <ellipse cx="112" cy="92" rx="5" ry="5.5" fill="#fff"/>
+  <ellipse cx="88" cy="93" rx="3" ry="3.5" fill="#1a1a1a"/>
+  <ellipse cx="112" cy="93" rx="3" ry="3.5" fill="#1a1a1a"/>
+  <!-- Brillo ojos -->
+  <circle cx="89.5" cy="91.5" r="1" fill="#fff"/>
+  <circle cx="113.5" cy="91.5" r="1" fill="#fff"/>
+
+  <!-- Cejas -->
+  <path d="M82 84 Q88 81 95 84" stroke="#2c1810" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M105 84 Q112 81 118 84" stroke="#2c1810" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Nariz -->
+  <path d="M98 96 Q96 106 100 110 Q104 106 102 96" fill="#c07c52" opacity="0.6"/>
+
+  <!-- Boca sonrisa -->
+  <path d="M88 116 Q100 126 112 116" stroke="#8b4513" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M90 116 Q100 123 110 116" fill="#c0392b" opacity="0.5"/>
+
+  <!-- Bigote -->
+  <path d="M91 112 Q100 116 109 112 Q105 109 100 110 Q95 109 91 112 Z" fill="#2c1810" opacity="0.7"/>
+
+  <!-- Hombros traje -->
+  <path d="M55 152 Q60 140 80 138 L88 148 L76 160 Z" fill="#122850" clip-path="url(#circle)"/>
+  <path d="M145 152 Q140 140 120 138 L112 148 L124 160 Z" fill="#122850" clip-path="url(#circle)"/>
+  <!-- Camisa blanca -->
+  <path d="M92 138 L100 142 L108 138 L106 148 L100 144 L94 148 Z" fill="#fff"/>
+
+  <!-- Borde dorado -->
+  <circle cx="100" cy="100" r="97" fill="none" stroke="url(#gold)" stroke-width="4"/>
+</svg>
