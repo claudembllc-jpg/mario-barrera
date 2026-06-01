@@ -1,0 +1,48 @@
+{
+  "ultima_actualizacion": "2026-05-29",
+  "skills": [
+    {
+      "id": "SKILL-001",
+      "nombre": "Social Intelligence",
+      "archivo": "agents/social_intelligence.md",
+      "descripcion": "Scraping de perfiles Instagram, análisis de competidores, comparación de cuentas",
+      "activar_cuando": "scraping, análisis de perfiles, datos de competidores, ranking",
+      "estado": "activo",
+      "instalada": "2026-05-28"
+    },
+    {
+      "id": "SKILL-002",
+      "nombre": "Insurance Marketing Strategist",
+      "archivo": "agents/insurance_marketing_strategist.md",
+      "descripcion": "Plan de contenido, hooks, campañas Meta Ads, estrategia para seguros en mercado latino Texas",
+      "activar_cuando": "contenido, hooks, Meta Ads, plan de publicaciones, estrategia de crecimiento, leads",
+      "estado": "activo",
+      "instalada": "2026-05-28"
+    },
+    {
+      "id": "SKILL-003",
+      "nombre": "ATLAS — Orquestador Central",
+      "archivo": "agents/orchestrator.md",
+      "descripcion": "Cerebro operativo de Mario Barrera Group. Coordina todas las skills, mantiene contexto global, genera briefs para el equipo y toma decisiones con bajo consumo de tokens.",
+      "activar_cuando": "siempre — es el skill principal que coordina todos los demás",
+      "estado": "activo",
+      "instalada": "2026-05-28"
+    },
+    {
+      "id": "SKILL-004",
+      "nombre": "Web Funnel Builder",
+      "archivo": "agents/web_funnel_builder.md",
+      "descripcion": "Landing pages de alta conversión, embudos de venta, hosting en VPS con nginx y Cloudflare Tunnel",
+      "activar_cuando": "landing page, embudo, web, dominio, formulario, WhatsApp integration, publicar en internet",
+      "estado": "activo",
+      "instalada": "2026-05-28",
+      "referencias": [
+        "references/html-template-base.md",
+        "references/sections-library.md",
+        "references/cloudflare-setup.md",
+        "references/ux-checklist.md",
+        "references/copy-formulas.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "competitors": [
+    {
+      "username": "celeste_cazares_",
+      "platform": "instagram",
+      "niche": "final expense / seguros de vida",
+      "notes": "Líder del nicho. 4,507 seguidores con solo 116 posts. Mejor ratio seguidores/posts.",
+      "followers": 4507,
+      "posts": 116,
+      "added": "2026-05-28",
+      "priority": "high"
+    },
+    {
+      "username": "usallbenefitsgroup_oficial",
+      "platform": "instagram",
+      "niche": "seguros de vida / taxes / texas",
+      "notes": "Segundo lugar. 1,768 seguidores pero 1,414 posts — muy alta frecuencia.",
+      "followers": 1768,
+      "posts": 1414,
+      "added": "2026-05-28",
+      "priority": "high"
+    },
+    {
+      "username": "thegraciedavisagency",
+      "platform": "instagram",
+      "niche": "insurance agent texas",
+      "notes": "670 seguidores, 141 posts. Perfil en inglés.",
+      "followers": 670,
+      "posts": 141,
+      "added": "2026-05-28",
+      "priority": "medium"
+    },
+    {
+      "username": "amoranteinsurance",
+      "platform": "instagram",
+      "niche": "agente de seguros texas",
+      "notes": "540 seguidores, 371 posts. Cuenta activa.",
+      "followers": 540,
+      "posts": 371,
+      "added": "2026-05-28",
+      "priority": "medium"
+    },
+    {
+      "username": "insuredbykourt",
+      "platform": "instagram",
+      "niche": "insurance agent texas",
+      "notes": "470 seguidores con SOLO 6 posts. Ratio altísimo — contenido muy efectivo.",
+      "followers": 470,
+      "posts": 6,
+      "added": "2026-05-28",
+      "priority": "high"
+    },
+    {
+      "username": "marcusinsurancegroup",
+      "platform": "instagram",
+      "niche": "final expense life insurance",
+      "notes": "402 seguidores, 49 posts. Final expense especializado.",
+      "followers": 402,
+      "posts": 49,
+      "added": "2026-05-28",
+      "priority": "medium"
+    },
+    {
+      "username": "carlainsurance",
+      "platform": "instagram",
+      "niche": "salud, vida y medicare texas",
+      "notes": "355 seguidores, 65 posts. Bilingüe, cubre Medicare también.",
+      "followers": 355,
+      "posts": 65,
+      "added": "2026-05-28",
+      "priority": "medium"
+    },
+    {
+      "username": "jordanzamora.insurance",
+      "platform": "instagram",
+      "niche": "insurance agent texas",
+      "notes": "116 seguidores, 34 posts. Cuenta nueva/pequeña.",
+      "followers": 116,
+      "posts": 34,
+      "added": "2026-05-28",
+      "priority": "low"
+    }
+  ],
+  "my_accounts": [
+    {
+      "username": "mariobarrera_agente",
+      "platform": "instagram",
+      "followers": 376,
+      "posts": 675,
+      "notes": "Cuenta principal del usuario. 376 seguidores, 675 posts — muy alta frecuencia de publicación.",
+      "added": "2026-05-28"
+    }
+  ],
+  "last_updated": "2026-05-28"
+}

@@ -1,0 +1,59 @@
+{
+  "total": 15,
+  "resumen": {
+    "pendiente": 14,
+    "en_progreso": 1,
+    "revision": 0,
+    "completada": 0
+  },
+  "en_progreso": [
+    {
+      "id": "TASK-D9A98A",
+      "titulo": "Actualizar bio de Instagram con posicionamiento correcto",
+      "estado": "en_progreso",
+      "prioridad": "alta",
+      "para": "mario",
+      "fecha_limite": "2026-05-30",
+      "tipo": "contenido"
+    }
+  ],
+  "proximas": [
+    {
+      "id": "TASK-85D32E",
+      "titulo": "Cambiar foto de perfil — cara visible, fondo limpio",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "para": "mario",
+      "fecha_limite": "2026-05-30",
+      "tipo": "contenido"
+    },
+    {
+      "id": "TASK-9F210B",
+      "titulo": "Portadas de Highlights — diseño para 4 categorías",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "para": "diseñador",
+      "fecha_limite": "2026-06-01",
+      "tipo": "brief"
+    },
+    {
+      "id": "TASK-D4CFA7",
+      "titulo": "REEL #1 — Presentación personal (el más importante)",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "para": "mario",
+      "fecha_limite": "2026-06-02",
+      "tipo": "contenido"
+    },
+    {
+      "id": "TASK-9CC044",
+      "titulo": "REEL #2 — ¿Qué es una auditoría de seguros? (pilar único)",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "para": "mario",
+      "fecha_limite": "2026-06-05",
+      "tipo": "contenido"
+    }
+  ],
+  "ultima_actualizacion": "2026-05-29"
+}
