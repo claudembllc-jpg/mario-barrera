@@ -1,0 +1,337 @@
+{
+  "tasks": [
+    {
+      "id": "TASK-D9A98A",
+      "titulo": "Actualizar bio de Instagram con posicionamiento correcto",
+      "tipo": "contenido",
+      "descripcion": "Reescribir la bio de @mariobarrera_agente. Es lo primero que ve cualquier visita — define si se quedan o se van.",
+      "como_hacerlo": "Copiar esta bio exacta:\n\n🛡️ Agente Final Expense · 15 años en Texas\n✅ Beneficios en vida — cobras TÚ, no solo tu familia\n💬 Explico seguros sin letra pequeña · En español\n📍 Houston · Dallas · Austin\n📲 Cotización gratis 👇",
+      "documentacion": [
+        "references/copy-formulas.md"
+      ],
+      "para": "mario",
+      "prioridad": "alta",
+      "fecha_limite": "2026-05-30",
+      "estado": "en_progreso",
+      "drive_link": "",
+      "notas": "El link en bio debe ir a WhatsApp: https://wa.me/18888561999?text=Hola%20Mario%2C%20quiero%20mi%20cotizaci%C3%B3n%20gratis",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-29"
+    },
+    {
+      "id": "TASK-85D32E",
+      "titulo": "Cambiar foto de perfil — cara visible, fondo limpio",
+      "tipo": "contenido",
+      "descripcion": "Sin cara visible la audiencia no confía. Esta es la acción de mayor impacto inmediato y toma 5 minutos.",
+      "como_hacerlo": "Opciones rápidas:\n1. Selfie frente a ventana grande con luz natural (fondo pared clara)\n2. Foto exterior en día nublado — luz suave y uniforme\n3. Foto en oficina o escritorio con buena iluminación\n\nRequisitos: cara bien iluminada, expresión confiada, ropa semiformal o formal.\nMedidas mínimas: 400x400px. Instagram la muestra en círculo.",
+      "documentacion": [],
+      "para": "mario",
+      "prioridad": "alta",
+      "fecha_limite": "2026-05-30",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "No necesita ser sesión profesional. Una buena foto con teléfono funciona perfectamente para empezar.",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-28"
+    },
+    {
+      "id": "TASK-9F210B",
+      "titulo": "Portadas de Highlights — diseño para 4 categorías",
+      "tipo": "brief",
+      "descripcion": "Crear 4 portadas de Highlights que den imagen profesional al perfil. Se ven debajo de la bio.",
+      "como_hacerlo": "4 portadas (1080x1920px, formato story):\n1. 'Quién soy' — ícono persona\n2. 'Clientes' — ícono corazón o familia\n3. 'Educación' — ícono libro o bombilla\n4. 'Contacto' — ícono teléfono o mensaje\n\nDiseño: fondo sólido azul marino #1B3A6B + ícono centrado en dorado #C9A84C + texto blanco debajo.\nEntregar: PNG 1080x1920px × 4 archivos",
+      "documentacion": [],
+      "para": "diseñador",
+      "prioridad": "alta",
+      "fecha_limite": "2026-06-01",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "Canva tiene plantillas de Highlights. Fácil de hacer en 30 min con la guía de colores.",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-28"
+    },
+    {
+      "id": "TASK-D4CFA7",
+      "titulo": "REEL #1 — Presentación personal (el más importante)",
+      "tipo": "contenido",
+      "descripcion": "Mario habla a cámara 60 segundos. Va fijado como primer post del perfil. Cualquier visita nueva lo ve primero. Sin leer — hablar natural.",
+      "como_hacerlo": "GUIÓN COMPLETO:\n\n[0–3 seg] HOOK:\n'Si llevas años escuchando sobre seguros pero nadie te los ha explicado bien — este video es para ti.'\n\n[3–18 seg] QUIÉN SOY:\n'Soy Mario Barrera. Llevo 15 años ayudando a familias latinas en Texas a proteger lo que más les importa.'\n\n[18–45 seg] QUÉ ME HACE DIFERENTE:\n'No soy el agente que te vende el papel más barato y desaparece. Yo hago algo diferente: audito tu situación completa. Reviso qué tienes, qué te falta, y si hay beneficios que puedes usar AHORA — no solo cuando mueras. Se llaman beneficios en vida y la mayoría de agentes ni los menciona.'\n\n[45–58 seg] CREDIBILIDAD + CTA:\n'He trabajado con cientos de familias en Houston, Dallas y Austin. Mi promesa es siempre la misma: la verdad antes que la venta. Escríbeme al DM o llama al 1-888-856-1999. Primera consulta gratis, sin compromiso.'\n\nGrabación: vertical 9:16 · fondo limpio · luz natural · subtítulos activados\n\nCAPTION HASHTAGS:\n#agentedeseguros #segurodevida #finalexpense #latinostexas #auditordeseguros #beneficiosenvidausa #finalexpenseinspanish #segurostexas",
+      "documentacion": [
+        "references/hook-patterns.md",
+        "references/content-formats.md"
+      ],
+      "para": "mario",
+      "prioridad": "alta",
+      "fecha_limite": "2026-06-02",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "Fijar este reel al perfil después de publicarlo. Es la primera impresión de cualquier visita nueva. Los hashtags #auditordeseguros y #beneficiosenvidausa tienen baja competencia en español — alta oportunidad de aparecer primero.",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-29"
+    },
+    {
+      "id": "TASK-9CC044",
+      "titulo": "REEL #2 — ¿Qué es una auditoría de seguros? (pilar único)",
+      "tipo": "contenido",
+      "descripcion": "Explica tu posicionamiento único. Nadie más en el nicho hispano de Texas usa este concepto. Es tu diferenciador #1.",
+      "como_hacerlo": "GUIÓN (45 seg):\n\nHook: '¿Sabes exactamente qué cubre tu seguro — y qué NO cubre? Porque la mayoría de agentes no te lo explican bien.'\n\n'La mayoría firmó un seguro hace años y nunca lo volvió a revisar. Yo hago algo que pocos agentes hacen: audito tu cobertura completa. Sin costo. Sin compromiso.'\n\n'En los últimos 30 días encontré 3 clientes que estaban pagando por planes que no los iban a proteger cuando más lo necesitaban. No porque fueran malos planes — sino porque nadie los había asesorado bien.'\n\nCTA: 'Escríbeme la palabra AUDITORÍA y te hago la revisión gratis esta semana.'\n\nCAPTION:\n¿Tu seguro realmente te protege?\n\nLa mayoría no lo sabe — no porque sean descuidados, sino porque nadie los ha asesorado bien.\n\nYo audito tu cobertura gratis: qué tienes, qué falta, y si estás pagando de más.\n\n✍️ Comenta AUDITORÍA o escríbeme al DM.\n\n#segurodevida #finalexpense #latinostexas #agentedeseguros #auditordeseguros #beneficiosenvidausa #finalexpenseinspanish",
+      "documentacion": [
+        "references/hook-patterns.md"
+      ],
+      "para": "mario",
+      "prioridad": "alta",
+      "fecha_limite": "2026-06-05",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "Usar la palabra AUDITORÍA en el hook, en el video y en el CTA. Es el keyword que te diferencia. NUEVO ÁNGULO: 'no estar bien asesorado' está resonando en el mercado hispano — úsalo para empatizar sin atacar a la competencia.",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-29"
+    },
+    {
+      "id": "TASK-8BD9DE",
+      "titulo": "REEL #3 — 3 errores que encuentro cuando reviso seguros",
+      "tipo": "contenido",
+      "descripcion": "Formato lista — el que más se comparte. Demuestra expertise y genera CTA orgánico de personas que quieren saber si tienen esos errores.",
+      "como_hacerlo": "GUIÓN (60 seg):\n\nHook: 'Llevo 15 años revisando seguros. Estos 3 errores los veo constantemente.'\n\nError 1: 'Solo tienen seguro del trabajo. Si te despiden, te enfermas o cambias de empleo — te quedas sin nada.'\n\nError 2: 'Eligieron el plan más barato sin leer la letra pequeña. Cuando llega el momento de usarlo, hay exclusiones que nadie les explicó.'\n\nError 3: 'No saben que existe el beneficio en vida. Si te diagnostican cáncer o sufres un infarto, puedes recibir dinero EN TUS MANOS para pagar renta y comida mientras te recuperas. Nadie les dijo esto.'\n\nCTA: 'Comenta cuál de estos 3 tienes y te ayudo a resolverlo.'\n\nCAPTION:\n3 errores que encuentro cada semana en los seguros de mis clientes 👇\n\nNo es culpa de la gente — nadie les explicó bien sus opciones.\n\n¿Tienes alguno de estos?\n\nEscríbeme y lo revisamos juntos — sin costo.\n\n#segurodevida #finalexpense #latinostexas #segurostexas #auditordeseguros #beneficiosenvidausa #finalexpenseinspanish",
+      "documentacion": [
+        "references/hook-patterns.md"
+      ],
+      "para": "mario",
+      "prioridad": "alta",
+      "fecha_limite": "2026-06-07",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "Pausar 1 segundo entre cada error. Efecto dramático. Contar con los dedos funciona bien visualmente. Agregar el ángulo 'no es culpa tuya — nadie te lo explicó bien' para empatizar antes del CTA.",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-29"
+    },
+    {
+      "id": "TASK-969E19",
+      "titulo": "CARRUSEL #1 — ¿Qué son los beneficios en vida? (guía visual)",
+      "tipo": "brief",
+      "descripcion": "Carrusel educativo de 6 slides sobre los beneficios en vida. Tu USP más poderoso explicado de forma visual. Alta probabilidad de guardados.",
+      "como_hacerlo": "CONTENIDO POR SLIDE (1080x1080px):\n\nSlide 1 (hook): Texto grande: '¿Sabías que tu seguro de vida puede pagarte A TI mientras sigues vivo?' Fondo: foto de familia o fondo oscuro con overlay.\n\nSlide 2: '¿Qué son los beneficios en vida?' — Definición simple: si te diagnostican una enfermedad crítica (cáncer, infarto, derrame), puedes acceder a parte del valor de tu póliza AHORA.\n\nSlide 3: '¿Para qué se usa ese dinero?' — Lista: Pagar renta · Pagar comida · Gastos médicos · Deudas · Lo que tú decidas\n\nSlide 4: '¿Quién puede tenerlos?' — 50 a 85 años · Sin examen médico completo · Trabajadores independientes · Familias latinas en Texas\n\nSlide 5: '¿Cuánto cuesta?' — Desde $30/mes · Primas fijas que no suben · Sin sorpresas\n\nSlide 6 (CTA): Foto de Mario + 'Escríbeme y te explico si calificas. Gratis y en español.' + número 1-888-856-1999\n\nEstilo: Azul marino + blanco + dorado para highlights. Máx 15 palabras por slide.",
+      "documentacion": [
+        "references/content-formats.md"
+      ],
+      "para": "diseñador",
+      "prioridad": "alta",
+      "fecha_limite": "2026-06-07",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "Slide 1 debe parar el scroll. Usar número o pregunta impactante. Los carruseles generan guardados = más alcance. HASHTAGS SLIDE 6: #beneficiosenvidausa #segurodevida #finalexpense #latinostexas #finalexpenseinspanish — son términos con baja competencia en español, alta oportunidad de aparecer en explorar.",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-29"
+    },
+    {
+      "id": "TASK-AA6940",
+      "titulo": "REEL #4 — Historia real de cliente: familia sin seguro (anónima)",
+      "tipo": "contenido",
+      "descripcion": "El formato que más convierte en el nicho. Mario cuenta en primera persona un caso real anónimo. Emocional, específico, sin datos privados.",
+      "como_hacerlo": "FÓRMULA DE HISTORIA:\nSituación normal → Evento inesperado → Consecuencia → Lección\n\nEJEMPLO DE GUIÓN (60 seg):\n'En febrero, una señora me llamó interesada en un plan. Me dijo que lo iba a pensar. Unos días después dejó de contestar.\nTres semanas más tarde me llamó llorando. Su esposo había tenido un infarto a los 54 años. Murió en el hospital.\nNo tenía seguro. La familia tuvo que juntar $13,000 para el funeral. Tuvieron que pedir prestado.\nSu hijo de 19 años tuvo que dejar la universidad para trabajar.\nEsa llamada me la recuerdo cada vez que alguien me dice: lo voy a pensar.'\n\nCTA: 'No esperes a que sea tarde. Escríbeme hoy — primera llamada gratis.'\n\nNOTA: Historia anónima. No mencionar nombre, ciudad exacta ni empresa. Solo el mes y la edad.",
+      "documentacion": [
+        "references/hook-patterns.md"
+      ],
+      "para": "mario",
+      "prioridad": "alta",
+      "fecha_limite": "2026-06-09",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "Grabar de pie, mirando a cámara. Sin leer. Si se emociona al contar — perfecto, eso es autenticidad. AÑADIR al final: 'Esto pasó porque nadie le había explicado bien sus opciones. Yo me aseguro de que eso no te pase a ti.' HASHTAGS: #segurodevida #finalexpense #latinostexas #auditordeseguros #beneficiosenvidausa #finalexpenseinspanish",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-29"
+    },
+    {
+      "id": "TASK-32B5CF",
+      "titulo": "REEL #5 — Historia real: cliente que cobró su seguro estando vivo",
+      "tipo": "contenido",
+      "descripcion": "La historia que más sorprende: un cliente que usó los beneficios en vida. Demuestra el USP de Mario de forma emocional y concreta.",
+      "como_hacerlo": "GUIÓN (60 seg):\n\nHook: 'Este cliente cobró su seguro de vida — y no está muerto.'\n\n'El año pasado, un cliente mío fue diagnosticado con cáncer. Tenía 61 años, trabajaba en construcción. Su miedo más grande no era la enfermedad — era no poder trabajar y que su familia no tuviera para comer.\n\nActivamos sus beneficios en vida. En menos de 30 días recibió un cheque directamente en sus manos. Pagó tres meses de renta. Pagó el tratamiento. Pudo descansar y recuperarse sin la presión económica encima.\n\nEso es lo que la mayoría de personas no sabe que existe. Su seguro de vida puede ayudarte AHORA — no solo cuando ya no estés.'\n\nCTA: 'Escríbeme BENEFICIOS y te cuento si tienes esto en tu plan.'",
+      "documentacion": [
+        "references/hook-patterns.md"
+      ],
+      "para": "mario",
+      "prioridad": "alta",
+      "fecha_limite": "2026-06-11",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "Este reel tiene potencial viral. El hook es contraintuitivo y detiene el scroll. Subtítulos grandes. HASHTAGS: #beneficiosenvidausa #segurodevida #finalexpense #latinostexas #finalexpenseinspanish #auditordeseguros",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-29"
+    },
+    {
+      "id": "TASK-FD83D9",
+      "titulo": "REEL #6 — Diferencia entre seguro del trabajo y seguro personal",
+      "tipo": "contenido",
+      "descripcion": "Responde la objeción más común: 'yo ya tengo seguro en el trabajo'. Educativo, directo, sin atacar — solo informar.",
+      "como_hacerlo": "GUIÓN (45 seg):\n\nHook: '¿Tienes seguro en el trabajo? Escucha esto antes de asumir que estás cubierto.'\n\n'El seguro de tu empleo desaparece si:\n— Te despiden o renuncias\n— La empresa cierra o recorta beneficios\n— Te enfermas y no puedes seguir trabajando\n— Te jubilas\n\nUn seguro personal es tuyo. Nadie te lo puede quitar. No depende de tu empleador ni de la economía.'\n\nCTA: 'Escríbeme y revisamos si tu cobertura actual realmente te protege.'",
+      "documentacion": [
+        "references/hook-patterns.md"
+      ],
+      "para": "mario",
+      "prioridad": "media",
+      "fecha_limite": "2026-06-12",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "Tono informativo, no de venta. Educar primero genera más confianza que vender directamente. HASHTAGS: #segurodevida #finalexpense #latinostexas #auditordeseguros #finalexpenseinspanish",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-29"
+    },
+    {
+      "id": "TASK-4449DA",
+      "titulo": "CARRUSEL #2 — Mitos y realidades del seguro final expense",
+      "tipo": "brief",
+      "descripcion": "Carrusel de 6 slides desmontando los 3 mitos más comunes. Formato Mito/Realidad — muy fácil de compartir.",
+      "como_hacerlo": "CONTENIDO (1080x1080px):\n\nSlide 1: '3 mitos sobre el seguro final expense que te están costando tranquilidad'\n\nSlide 2: MITO 1 — 'Solo es para personas ricas' // REALIDAD: Desde $30/mes. Aprobación en días.\n\nSlide 3: MITO 2 — 'Necesito examen médico' // REALIDAD: Sin examen médico completo. Preguntas simples de salud.\n\nSlide 4: MITO 3 — 'Solo paga cuando muero' // REALIDAD: Los beneficios en vida te pagan A TI si te diagnostican algo grave.\n\nSlide 5: '¿Cuál mito creías tú?' — Encuesta o pregunta para comentarios\n\nSlide 6: Mario + CTA + número\n\nEstilo visual: Mito en rojo tachado / Realidad en verde ✓",
+      "documentacion": [
+        "references/content-formats.md"
+      ],
+      "para": "diseñador",
+      "prioridad": "media",
+      "fecha_limite": "2026-06-13",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "El formato tachado visual es muy efectivo. Genera comentarios de personas que creían el mito. Mito 3 (solo paga cuando muero) es el más impactante ahora — 'beneficios en vida' es tendencia dominante en el nicho hispano. HASHTAGS slide 6: #beneficiosenvidausa #finalexpense #latinostexas #finalexpenseinspanish",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-29"
+    },
+    {
+      "id": "TASK-22DC04",
+      "titulo": "STORIES — Plantilla semanal para publicación diaria",
+      "tipo": "brief",
+      "descripcion": "Crear 5 plantillas de story reutilizables. El publicador solo cambia el texto cada semana. Stories diarias mantienen el algoritmo activo.",
+      "como_hacerlo": "5 plantillas (1080x1920px, formato editable Canva):\n\n1. ENCUESTA SEMANAL: '¿Tienes seguro de vida?' 👆SÍ / 👇NO — Fondo navy, texto grande blanco\n\n2. TIP DE LA SEMANA: Caja de texto con tip corto — fondo degradado navy→dorado\n\n3. PREGUNTA ABIERTA: '¿Cuál es tu mayor duda sobre seguros?' — Caja de respuesta de Instagram\n\n4. CITA MOTIVACIONAL: Frase de Mario sobre protección familiar — fondo oscuro, tipografía serif\n\n5. CTA DIRECTO: 'Cotización gratis esta semana' + botón WhatsApp — fondo sólido dorado\n\nEntregar como: Canva shareable link o archivos PNG editables",
+      "documentacion": [
+        "references/content-formats.md"
+      ],
+      "para": "diseñador",
+      "prioridad": "media",
+      "fecha_limite": "2026-06-04",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "Las respuestas de la encuesta son leads potenciales. Los que votan NO = DM inmediato de Mario.",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-28"
+    },
+    {
+      "id": "TASK-489A2B",
+      "titulo": "ESTRATEGIA — Guía de uso de Stories para el publicador",
+      "tipo": "brief",
+      "descripcion": "Documento de instrucciones para que el publicador sepa exactamente qué story publicar cada día de la semana.",
+      "como_hacerlo": "CALENDARIO DE STORIES (repetir cada semana):\n\nLunes: Encuesta — '¿Tienes seguro de vida?'\nMartes: Tip de la semana (Mario graba 30 seg o texto)\nMiércoles: Compartir el reel de la semana en story\nJueves: Pregunta abierta a la audiencia\nViernes: CTA directo — 'Esta semana tengo espacio para 3 consultas gratis'\nSábado: Story personal — foto o momento del día de Mario (opcional)\nDomingo: Recordatorio del reel más visto de la semana\n\nIMPORTANTE: Revisar quién responde la encuesta el lunes y hacer DM a quienes votan NO.",
+      "documentacion": [],
+      "para": "publicador",
+      "prioridad": "media",
+      "fecha_limite": "2026-06-05",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "Las stories diarias le dicen al algoritmo que la cuenta está activa. Bajo esfuerzo, alto impacto.",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-28"
+    },
+    {
+      "id": "TASK-D07D45",
+      "titulo": "LANDING PAGE — Página de cotización gratis en el VPS",
+      "tipo": "infraestructura",
+      "descripcion": "Crear la landing page de captación de leads. Va en el link de la bio. Formulario simple → lead llega por WhatsApp a Mario.",
+      "como_hacerlo": "Embudo Tipo C (WhatsApp directo):\n\nSecciones:\n1. Hero: '¿Tu familia estaría protegida si algo te pasara hoy?' + CTA\n2. 3 beneficios clave (con íconos)\n3. Formulario: Nombre + WhatsApp + ¿Tienes seguro? (Sí/No)\n4. Botón WhatsApp flotante siempre visible\n\nCopy headline: 'Cotización gratis · Sin compromiso · En español · 15 años de experiencia'\nColor: #1B3A6B + #C9A84C\nPublicar en: /var/www/cotizacion/\nURL via Cloudflare Tunnel para el link de bio",
+      "documentacion": [
+        "agents/web_funnel_builder.md",
+        "references/html-template-base.md",
+        "references/copy-formulas.md",
+        "references/ux-checklist.md"
+      ],
+      "para": "sistema",
+      "prioridad": "alta",
+      "fecha_limite": "2026-06-11",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "Sin esta página, los leads de Instagram se pierden. Prioridad alta para semana 4. NUEVO CONTEXTO: la landing también debe recibir tráfico de Facebook — el cliente 50-70 años está principalmente en Facebook, no en Instagram. Asegurarse que el formulario funcione bien en móvil Android (perfil demográfico predominante).",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-29"
+    },
+    {
+      "id": "TASK-B110F1",
+      "titulo": "META ADS — Campaña Fase 1: Awareness ($5-10/día)",
+      "tipo": "campaña",
+      "descripcion": "Primera campaña pagada para construir audiencia cálida. Usar el Reel #1 (presentación personal). Solo Video Views — NO pedir nada todavía.",
+      "como_hacerlo": "Configuración en Meta Ads Manager:\n\nObjetivo: Video Views\nPresupuesto: $5-10/día\nDuración: 14 días\n\nAudiencia FACEBOOK (prioritaria para 50-70 años):\n- Plataformas: Facebook Feed + Facebook Reels (NO solo Instagram)\n- Ubicación: Houston TX, Dallas TX, Austin TX (25 km radio cada una)\n- Edad: 50-75 años (ajuste por contexto: el cliente 50-70 está en Facebook, no en IG)\n- Idioma: Español\n- Intereses: Seguros de vida + Familia + Telemundo/Univision + AARP\n\nAudiencia INSTAGRAM (secundaria, para crecer cuenta):\n- Edad: 35-55 años\n- Mismos intereses\n\nCreativo: Reel #1 de presentación personal\nCopy: 'Soy Mario Barrera. 15 años ayudando familias latinas en Texas a proteger su futuro. En español, sin letra pequeña.'\n\nIMPORTANTE: Activar categoría especial 'Seguros' antes de publicar.",
+      "documentacion": [
+        "references/meta-ads-specs.md"
+      ],
+      "para": "mario",
+      "prioridad": "media",
+      "fecha_limite": "2026-06-18",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "Meta: 500-1000 visualizaciones. Esta audiencia se usa para retargeting en Fase 2. NUEVO CONTEXTO: el cliente 50-70 años está principalmente en Facebook — priorizar placement de Facebook sobre Instagram para el segmento de mayor edad.",
+      "creada": "2026-05-28",
+      "actualizada": "2026-05-29"
+    },
+    {
+      "id": "TASK-264B05",
+      "titulo": "Formulario conversacional estilo Typeform — landing cotizacion",
+      "tipo": "desarrollo",
+      "descripcion": "Crear formulario conversacional desde cero (una pregunta a la vez, animaciones entre pasos, barra de progreso, validación). Mismo diseño Apple-minimal de la landing. Integrar con WhatsApp de Mario al completar. Ejecutar en sesión nueva para contexto limpio. Estimado: 45-60 min, ~15,000-20,000 tokens.",
+      "como_hacerlo": "",
+      "documentacion": [],
+      "para": "atlas",
+      "prioridad": "media",
+      "fecha_limite": "2026-06-05",
+      "estado": "pendiente",
+      "drive_link": "",
+      "notas": "NO usar plataformas externas (no Typeform, no Jotform). CSS/JS puro. Página separada /cotiza o reemplaza form actual — confirmar con Mario antes de ejecutar.",
+      "creada": "2026-05-29",
+      "actualizada": "2026-05-29"
+    },
+    {
+      "id": "TASK-3DB62B",
+      "titulo": "Dashboard: agregar panel de tareas propias de ATLAS (para consultar en próximas sesiones)",
+      "descripcion": "El dashboard debe mostrar una sección 'Tareas de ATLAS' con tareas que yo mismo puedo tomar, resolver y marcar como completas. Al inicio de sesión, si hay pendientes de ATLAS, mostrar alerta.",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "para": "atlas",
+      "fecha_limite": "2026-06-05",
+      "tipo": "infraestructura",
+      "tags": [
+        "dashboard",
+        "atlas",
+        "tareas-propias"
+      ]
+    },
+    {
+      "id": "TASK-DCC62F",
+      "titulo": "Dashboard: vista Obsidian-style — documentación vault en tiempo real con estado de procesos",
+      "descripcion": "Panel lateral o sección nueva en el dashboard que muestre: (1) archivos del vault en tiempo real con preview markdown, (2) estado de servicios systemd (atlas-dashboard, tunnels, nginx), (3) logs recientes en vivo. Estilo visual de Obsidian: árbol de archivos + editor de notas.",
+      "estado": "pendiente",
+      "prioridad": "alta",
+      "para": "atlas",
+      "fecha_limite": "2026-06-07",
+      "tipo": "infraestructura",
+      "tags": [
+        "dashboard",
+        "obsidian",
+        "tiempo-real",
+        "vault"
+      ]
+    },
+    {
+      "id": "TASK-C09420",
+      "titulo": "Landing page: correcciones post-lanzamiento v2 (auditoría→asesoría, SMS, Typeform inline, mobile-first)",
+      "descripcion": "COMPLETADO en sesión 5: nueva landing con formulario Typeform inline, SMS en lugar de WhatsApp, asesoría en lugar de auditoría, diseño mobile-first, sticky bar móvil.",
+      "estado": "completada",
+      "prioridad": "alta",
+      "para": "atlas",
+      "fecha_limite": "2026-05-29",
+      "tipo": "contenido",
+      "tags": [
+        "landing",
+        "diseño",
+        "mobile",
+        "typeform"
+      ]
+    }
+  ],
+  "ultima_actualizacion": "2026-05-29",
+  "updated": "2026-05-29"
+}

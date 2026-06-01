@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Asesor de Seguros en Español Texas | Mario Barrera — Asesoría Gratis</title>
+  <meta name="description" content="Mario Barrera, asesor de seguros de vida en español. Houston, Dallas y Austin Texas. Final expense desde $30/mes. Sin examen médico. Llama o SMS: 1-888-856-1999.">
+  <meta name="geo.region" content="US-TX">
+  <meta property="og:title" content="Asesor de Seguros en Español Texas | Mario Barrera">
+  <meta property="og:description" content="15 años protegiendo familias latinas en Texas. Final expense desde $30/mes. Sin examen médico. Asesoría gratis en español.">
+  <meta property="og:image" content="img/og-mario.jpg">
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Mario Barrera — Asesor de Seguros de Vida","telephone":"+18888561999","address":{"@type":"PostalAddress","addressLocality":"Houston","addressRegion":"TX","addressCountry":"US"},"serviceType":["Seguro de vida en español","Final expense insurance","Beneficios en vida","Asesoría de seguros gratuita"],"knowsLanguage":["es-US","en-US"]}</script>
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"¿Cuánto cuesta un seguro final expense en Texas?","acceptedAnswer":{"@type":"Answer","text":"Entre $30 y $100 al mes para personas de 50 a 85 años. Mario Barrera ofrece asesoría y cotización gratis. Llama al 1-888-856-1999."}},{"@type":"Question","name":"¿Qué son los beneficios en vida?","acceptedAnswer":{"@type":"Answer","text":"Son coberturas que te permiten recibir dinero mientras estás vivo si te diagnostican cáncer, infarto u otra enfermedad grave. No es un préstamo."}},{"@type":"Question","name":"¿Puedo tener seguro sin examen médico?","acceptedAnswer":{"@type":"Answer","text":"Sí. Planes disponibles de los 50 a los 85 años sin examen médico, incluso con diabetes o presión alta."}},{"@type":"Question","name":"¿Por qué el seguro del trabajo no es suficiente?","acceptedAnswer":{"@type":"Answer","text":"El seguro del trabajo se cancela si te despiden o cambias de empleo. Un seguro personal es tuyo para siempre."}}]}</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    /* ═══════════════════════════════════════════
+       DISEÑO PARA ADULTOS 50-85 AÑOS
+       — Tipografía grande (base 18px)
+       — Colores cálidos, alto contraste
+       — Tap targets grandes (mínimo 56px)
+       — Lectura fácil, layout simple
+       ═══════════════════════════════════════════ */
+    :root {
+      /* Paleta cálida — alta legibilidad */
+      --cream:     #FEFCF8;
+      --warm-alt:  #FAF7F1;
+      --warm-dk:   #F0EBE0;
+      --ink:       #1C1917;
+      --body:      #3D3530;
+      --mid:       #6B5E55;
+      --faint:     #A09080;
+      --line:      #E8E0D5;
+      --line-dk:   #D4C8B8;
+      --navy:      #1B3A6B;
+      --navy-dk:   #122850;
+      --navy-lt:   #EEF2FA;
+      --gold:      #B07D20;
+      --gold-dk:   #8F6318;
+      --gold-lt:   #FDF6E7;
+      --green:     #15803D;
+      --green-lt:  #DCFCE7;
+      --red:       #B91C1C;
+      --red-lt:    #FEE2E2;
+      --white:     #FFFFFF;
+      --black:     #0F0D0A;
+      --font:      'Inter', -apple-system, Georgia, sans-serif;
+      --ease:      cubic-bezier(.4,0,.2,1);
+      --r:         12px;
+      --r-lg:      20px;
+      --r-xl:      28px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /* Base 18px — legibilidad para adultos mayores */
+    html { font-size: 18px; scroll-behavior: smooth; -webkit-tap-highlight-color: transparent; }
+
+    body {
+      font-family: var(--font);
+      color: var(--ink);
+      background: var(--cream);
+      -webkit-font-smoothing: antialiased;
+      line-height: 1.7;
+      overflow-x: hidden;
+      padding-bottom: 80px; /* espacio sticky bar */
+    }
+    @media (min-width: 640px) { body { padding-bottom: 0; } }
+
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+    button { font-family: var(--font); cursor: pointer; }
+
+    .wrap    { max-width: 960px; margin: 0 auto; padding: 0 22px; width: 100%; }
+    .wrap-sm { max-width: 660px; }
+    .section { padding: 72px 0; }
+    @media (min-width: 640px) { .section { padding: 104px 0; } }
+
+    /* Animaciones suaves */
+    .anim { opacity: 0; transform: translateY(20px); transition: opacity .65s var(--ease), transform .65s var(--ease); }
+    .anim.in { opacity: 1; transform: none; }
+    .d1 { transition-delay: .1s; }
+    .d2 { transition-delay: .2s; }
+    .d3 { transition-delay: .3s; }
+    @keyframes fadeDown { from { opacity:0; transform:translateY(-8px); } to { opacity:1; transform:none; } }
+    @keyframes fadeUp   { from { opacity:0; transform:translateY(18px); } to { opacity:1; transform:none; } }
+    @keyframes dot-pulse { 0%,100%{transform:scale(1);opacity:1} 50%{transform:scale(1.5);opacity:.6} }
+    @keyframes pop { 0%{transform:scale(0)} 70%{transform:scale(1.15)} 100%{transform:scale(1)} }
+    @keyframes spin { to { transform:rotate(360deg); } }
+
+    /* ═══ ETIQUETA + TITULARES ═══ */
+    .label {
+      display: inline-block;
+      font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 14px;
+    }
+    .label.lt { color: rgba(176,125,32,.9); }
+
+    h2.titulo {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 800; line-height: 1.1; letter-spacing: -.03em; color: var(--ink);
+    }
+    h2.titulo.lt { color: var(--white); }
+    h2.titulo em { font-style: normal; color: var(--gold); }
+    h2.titulo.lt em { color: #F0C060; }
+
+    p.subtitulo {
+      font-size: 1.05rem; color: var(--body); line-height: 1.75; margin-top: 16px;
+    }
+    p.subtitulo.lt { color: rgba(255,255,255,.65); }
+
+    /* ═══ BOTONES ═══ */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      font-size: 1rem; font-weight: 700; min-height: 56px; padding: 0 28px;
+      border-radius: var(--r); border: none;
+      transition: transform .12s var(--ease), box-shadow .15s, background .15s, opacity .15s;
+      letter-spacing: -.01em;
+    }
+    .btn:active { transform: scale(.97); }
+    .btn-navy {
+      background: var(--navy); color: var(--white);
+      box-shadow: 0 4px 20px rgba(27,58,107,.28);
+    }
+    .btn-navy:hover { background: var(--navy-dk); box-shadow: 0 6px 26px rgba(27,58,107,.38); }
+    .btn-gold {
+      background: var(--gold); color: var(--white);
+      box-shadow: 0 4px 20px rgba(176,125,32,.3);
+    }
+    .btn-gold:hover { background: var(--gold-dk); }
+    .btn-outline {
+      background: transparent; color: var(--navy);
+      border: 2px solid var(--navy);
+    }
+    .btn-outline:hover { background: var(--navy-lt); }
+    .btn-ghost-light {
+      background: rgba(255,255,255,.1); color: var(--white);
+      border: 2px solid rgba(255,255,255,.25);
+    }
+    .btn-ghost-light:hover { background: rgba(255,255,255,.18); border-color: rgba(255,255,255,.5); }
+    .btn-lg { min-height: 62px; font-size: 1.05rem; padding: 0 34px; border-radius: var(--r-lg); }
+    .btn-full { width: 100%; }
+
+    /* ═══ NAV ═══ */
+    .nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      height: 60px; display: flex; align-items: center;
+      background: rgba(254,252,248,0);
+      transition: background .3s, box-shadow .3s;
+    }
+    .nav.scrolled {
+      background: rgba(254,252,248,.96);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 1px 0 var(--line);
+    }
+    .nav-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      width: 100%; max-width: 960px; margin: 0 auto; padding: 0 22px;
+    }
+    .nav-brand { font-size: .88rem; font-weight: 700; color: var(--ink); line-height: 1.3; }
+    .nav-brand span { display: block; font-size: .72rem; font-weight: 500; color: var(--mid); }
+    .nav-phone {
+      display: flex; align-items: center; gap: 8px;
+      font-size: .95rem; font-weight: 700; color: var(--navy);
+      background: var(--navy-lt); padding: 9px 18px; border-radius: var(--r);
+      transition: background .15s;
+    }
+    .nav-phone:hover { background: #dde6f5; }
+    .nav-phone svg { color: var(--navy); }
+
+    /* ═══ HERO ═══ */
+    .hero {
+      min-height: 90svh;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      text-align: center;
+      padding: 100px 22px 68px;
+      background: linear-gradient(170deg, var(--navy-lt) 0%, var(--cream) 55%);
+      position: relative; overflow: hidden;
+    }
+    .hero::after {
+      content: '';
+      position: absolute; bottom: 0; left: 0; right: 0;
+      height: 120px;
+      background: linear-gradient(to bottom, transparent, var(--cream));
+      pointer-events: none;
+    }
+
+    /* Perfil */
+    .perfil-pill {
+      display: inline-flex; align-items: center; gap: 12px;
+      background: var(--white); border: 1.5px solid var(--line);
+      border-radius: 9999px; padding: 8px 20px 8px 8px;
+      box-shadow: 0 2px 20px rgba(0,0,0,.08);
+      margin-bottom: 28px;
+      opacity: 0; animation: fadeDown .5s var(--ease) .1s forwards;
+    }
+    .perfil-foto {
+      width: 44px; height: 44px; border-radius: 50%;
+      object-fit: cover; border: 2.5px solid var(--gold); flex-shrink: 0;
+    }
+    .perfil-info { text-align: left; }
+    .perfil-nombre { font-size: .88rem; font-weight: 700; color: var(--ink); line-height: 1.3; }
+    .perfil-rol    { font-size: .75rem; color: var(--mid); margin-top: 1px; }
+    .perfil-activo {
+      display: flex; align-items: center; gap: 5px;
+      font-size: .68rem; font-weight: 700; color: var(--green); margin-top: 3px;
+    }
+    .dot-verde {
+      width: 7px; height: 7px; background: var(--green); border-radius: 50%;
+      animation: dot-pulse 2s ease-in-out infinite; flex-shrink: 0;
+    }
+
+    .hero-tag {
+      font-size: .78rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 16px;
+      opacity: 0; animation: fadeDown .5s var(--ease) .2s forwards;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.2rem, 7vw, 4.6rem);
+      font-weight: 800; line-height: 1.07; letter-spacing: -.04em;
+      color: var(--ink); max-width: 740px;
+      margin-bottom: 22px;
+      opacity: 0; animation: fadeUp .6s var(--ease) .28s forwards;
+    }
+    .hero h1 em { font-style: normal; color: var(--navy); }
+
+    .hero-desc {
+      font-size: 1.15rem; color: var(--body); line-height: 1.7;
+      max-width: 500px; margin-bottom: 36px;
+      opacity: 0; animation: fadeUp .6s var(--ease) .38s forwards;
+    }
+
+    /* Número grande — clave para 50-85 años */
+    .hero-phone-big {
+      display: flex; align-items: center; gap: 10px;
+      font-size: clamp(1.5rem, 5vw, 2.4rem);
+      font-weight: 800; color: var(--navy); letter-spacing: -.02em;
+      margin-bottom: 32px; text-decoration: none;
+      background: var(--white); border: 2px solid var(--line);
+      border-radius: var(--r-lg); padding: 16px 32px;
+      box-shadow: 0 4px 24px rgba(27,58,107,.1);
+      transition: border-color .15s, box-shadow .15s;
+      opacity: 0; animation: fadeUp .6s var(--ease) .45s forwards;
+    }
+    .hero-phone-big:hover { border-color: var(--navy); box-shadow: 0 6px 32px rgba(27,58,107,.2); }
+    .hero-phone-big svg { color: var(--gold); flex-shrink: 0; }
+
+    .hero-o-sms {
+      font-size: .82rem; color: var(--mid); margin-bottom: 10px;
+      opacity: 0; animation: fadeUp .6s var(--ease) .5s forwards;
+    }
+
+    .hero-sms-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: .95rem; font-weight: 700; color: var(--navy);
+      background: var(--navy-lt); border: 2px solid transparent;
+      border-radius: var(--r); padding: 13px 24px; min-height: 52px;
+      transition: border-color .15s, background .15s;
+      margin-bottom: 32px;
+      opacity: 0; animation: fadeUp .6s var(--ease) .55s forwards;
+    }
+    .hero-sms-btn:hover { border-color: var(--navy); }
+
+    .hero-chips {
+      display: flex; flex-wrap: wrap; justify-content: center; gap: 14px;
+      opacity: 0; animation: fadeUp .6s var(--ease) .6s forwards;
+    }
+    .chip {
+      display: flex; align-items: center; gap: 6px;
+      font-size: .82rem; font-weight: 500; color: var(--body);
+    }
+    .chip svg { color: var(--green); flex-shrink: 0; }
+
+    /* ═══ STATS ═══ */
+    .stats-wrap { background: var(--navy); }
+    .stats-grid { display: grid; grid-template-columns: repeat(2,1fr); }
+    @media (min-width: 640px) { .stats-grid { grid-template-columns: repeat(4,1fr); } }
+    .stat {
+      padding: 32px 20px; text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+    @media (min-width: 640px) { .stat { border-bottom: none; border-right: 1px solid rgba(255,255,255,.1); } }
+    .stat:nth-child(odd) { border-right: 1px solid rgba(255,255,255,.1); }
+    @media (min-width: 640px) { .stat:last-child { border-right: none; } }
+    .stat-n {
+      font-size: 2.4rem; font-weight: 800; letter-spacing: -.04em;
+      color: var(--white); line-height: 1; display: block;
+    }
+    .stat-n sup { font-size: 1.1rem; vertical-align: super; }
+    .stat-l { font-size: .78rem; font-weight: 500; color: rgba(255,255,255,.55); margin-top: 6px; display: block; line-height: 1.4; }
+
+    /* ═══ PROBLEMA ═══ */
+    .problema-wrap { background: var(--cream); }
+    .problema-grid { display: grid; gap: 48px; align-items: center; }
+    @media (min-width: 640px) { .problema-grid { grid-template-columns: 1fr 1fr; gap: 72px; } }
+
+    .prob-list { list-style: none; margin-top: 32px; }
+    .prob-item {
+      display: flex; gap: 16px; padding: 20px 0;
+      border-top: 1.5px solid var(--line); align-items: flex-start;
+    }
+    .prob-item:last-child { border-bottom: 1.5px solid var(--line); }
+    .prob-icon {
+      width: 36px; height: 36px; min-width: 36px; border-radius: var(--r);
+      background: var(--red-lt); display: flex; align-items: center; justify-content: center;
+    }
+    .prob-icon svg { color: var(--red); }
+    .prob-txt { font-size: 1rem; color: var(--body); line-height: 1.65; padding-top: 5px; }
+    .prob-txt strong { color: var(--ink); font-weight: 700; }
+
+    .foto-marco {
+      border-radius: var(--r-xl); overflow: hidden; position: relative;
+      box-shadow: 0 8px 40px rgba(0,0,0,.12);
+    }
+    .foto-marco img { width: 100%; aspect-ratio: 4/5; object-fit: cover; display: block; }
+    .foto-tag {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      background: linear-gradient(to top, rgba(15,13,10,.88) 0%, transparent 100%);
+      padding: 40px 20px 20px;
+      display: flex; align-items: flex-end; justify-content: space-between;
+    }
+    .foto-tag-text p:first-child { font-size: .95rem; font-weight: 700; color: white; }
+    .foto-tag-text p:last-child  { font-size: .78rem; color: rgba(255,255,255,.6); margin-top: 3px; }
+    .foto-badge {
+      font-size: .68rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase;
+      background: var(--gold); color: white; padding: 6px 12px; border-radius: 9999px;
+    }
+
+    /* ═══ ASESORÍA HONESTA (dark) ═══ */
+    .asesoria-wrap { background: var(--black); }
+    .asesoria-grid { display: grid; gap: 56px; }
+    @media (min-width: 640px) { .asesoria-grid { grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; } }
+
+    .dark-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: .68rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+      color: #F0C060; border: 1.5px solid rgba(240,192,96,.25);
+      padding: 6px 14px; border-radius: 9999px; margin-bottom: 22px;
+    }
+    .dark-badge-dot { width: 6px; height: 6px; background: #F0C060; border-radius: 50%; }
+    .dark-h2 {
+      font-size: clamp(1.9rem, 4vw, 3rem);
+      font-weight: 800; line-height: 1.1; letter-spacing: -.03em;
+      color: white; margin-bottom: 20px;
+    }
+    .dark-h2 em { font-style: normal; color: #F0C060; }
+    .dark-desc { font-size: 1rem; color: rgba(255,255,255,.55); line-height: 1.75; margin-bottom: 32px; }
+
+    .check-list { list-style: none; }
+    .check-item {
+      display: flex; gap: 14px; padding: 16px 0;
+      border-top: 1px solid rgba(255,255,255,.07); align-items: flex-start;
+    }
+    .check-item:last-child { border-bottom: 1px solid rgba(255,255,255,.07); }
+    .check-dot {
+      width: 22px; height: 22px; border-radius: 50%; flex-shrink: 0; margin-top: 2px;
+      background: rgba(240,192,96,.15);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .check-dot svg { color: #F0C060; }
+    .check-item p { font-size: .97rem; color: rgba(255,255,255,.65); line-height: 1.6; }
+
+    /* Mock card */
+    .mock-wrap {
+      background: rgba(255,255,255,.04); border: 1.5px solid rgba(255,255,255,.08);
+      border-radius: var(--r-xl); padding: 28px 24px;
+    }
+    .mock-lbl { font-size: .68rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: rgba(255,255,255,.2); margin-bottom: 18px; }
+    .mock-row {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 13px 16px; border-radius: var(--r);
+      background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.06); margin-bottom: 8px;
+    }
+    .mock-row:last-of-type { margin-bottom: 0; }
+    .mock-texto { font-size: .9rem; color: rgba(255,255,255,.7); font-weight: 500; }
+    .tag-ok   { font-size: .68rem; font-weight: 700; padding: 4px 12px; border-radius: 9999px; background: rgba(21,128,61,.2); color: #4ade80; }
+    .tag-warn { font-size: .68rem; font-weight: 700; padding: 4px 12px; border-radius: 9999px; background: rgba(251,191,36,.15); color: #fbbf24; }
+    .tag-bad  { font-size: .68rem; font-weight: 700; padding: 4px 12px; border-radius: 9999px; background: rgba(239,68,68,.15); color: #f87171; }
+
+    /* ═══ CÓMO FUNCIONA ═══ */
+    .como-wrap { background: var(--warm-alt); }
+    .pasos { display: grid; gap: 2px; margin-top: 48px; }
+    @media (min-width: 640px) { .pasos { grid-template-columns: repeat(3,1fr); } }
+    .paso {
+      background: var(--white); padding: 36px 28px;
+      border-bottom: 2px solid var(--line);
+    }
+    .paso:first-child { border-radius: var(--r-lg) var(--r-lg) 0 0; }
+    .paso:last-child  { border-radius: 0 0 var(--r-lg) var(--r-lg); border-bottom: none; }
+    @media (min-width: 640px) {
+      .paso { border-bottom: none; border-right: 2px solid var(--line); }
+      .paso:first-child { border-radius: var(--r-lg) 0 0 var(--r-lg); }
+      .paso:last-child  { border-radius: 0 var(--r-lg) var(--r-lg) 0; border-right: none; }
+    }
+    .paso-n    { font-size: 3.5rem; font-weight: 800; letter-spacing: -.06em; color: var(--warm-dk); line-height: 1; margin-bottom: 18px; display: block; }
+    .paso-ico  { width: 44px; height: 44px; background: var(--gold-lt); border-radius: var(--r); display: flex; align-items: center; justify-content: center; margin-bottom: 16px; }
+    .paso-ico svg { color: var(--gold); }
+    .paso-tit  { font-size: 1.05rem; font-weight: 700; color: var(--ink); margin-bottom: 10px; }
+    .paso-txt  { font-size: .92rem; color: var(--body); line-height: 1.7; }
+    .paso-tag  { display: inline-block; margin-top: 14px; font-size: .65rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--gold); border: 1.5px solid rgba(176,125,32,.3); padding: 4px 10px; border-radius: 6px; }
+
+    /* ═══ OBJECIONES (sección especial 50-85 años) ═══ */
+    .obj-wrap { background: var(--cream); }
+    .obj-grid { display: grid; gap: 14px; margin-top: 40px; }
+    @media (min-width: 480px) { .obj-grid { grid-template-columns: repeat(2,1fr); } }
+    @media (min-width: 800px) { .obj-grid { grid-template-columns: repeat(4,1fr); } }
+    .obj-card {
+      background: var(--white); border: 2px solid var(--line);
+      border-radius: var(--r-lg); padding: 28px 22px;
+      text-align: center;
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .obj-card:hover { border-color: var(--navy); box-shadow: 0 4px 20px rgba(27,58,107,.1); }
+    .obj-q   { font-size: .82rem; font-weight: 500; color: var(--mid); margin-bottom: 12px; line-height: 1.4; }
+    .obj-a   { font-size: 1rem; font-weight: 700; color: var(--navy); line-height: 1.4; }
+    .obj-ico { font-size: 2rem; margin-bottom: 12px; line-height: 1; }
+
+    /* ═══ COBERTURAS ═══ */
+    .cob-wrap { background: var(--navy); }
+    .cob-header { text-align: center; margin-bottom: 48px; }
+    .cob-grid { display: grid; gap: 16px; }
+    @media (min-width: 640px) { .cob-grid { grid-template-columns: repeat(3,1fr); } }
+    .cob-card {
+      background: rgba(255,255,255,.06); border: 1.5px solid rgba(255,255,255,.1);
+      border-radius: var(--r-lg); padding: 32px 24px;
+      transition: background .2s, border-color .2s;
+    }
+    .cob-card:hover { background: rgba(255,255,255,.1); border-color: rgba(255,255,255,.2); }
+    .cob-ico { width: 48px; height: 48px; border-radius: var(--r); background: rgba(240,192,96,.15); display: flex; align-items: center; justify-content: center; margin-bottom: 18px; }
+    .cob-ico svg { color: #F0C060; }
+    .cob-tit { font-size: 1.05rem; font-weight: 700; color: white; margin-bottom: 10px; }
+    .cob-txt { font-size: .92rem; color: rgba(255,255,255,.55); line-height: 1.7; }
+    .cob-tag { display: inline-block; margin-top: 14px; font-size: .65rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: #F0C060; border: 1.5px solid rgba(240,192,96,.3); padding: 4px 10px; border-radius: 6px; }
+
+    /* ═══ TESTIMONIOS ═══ */
+    .testi-wrap { background: var(--warm-alt); }
+    .testi-grid { display: grid; gap: 16px; margin-top: 44px; }
+    @media (min-width: 640px) { .testi-grid { grid-template-columns: repeat(3,1fr); } }
+    .testi-card {
+      background: var(--white); border: 1.5px solid var(--line);
+      border-radius: var(--r-lg); padding: 28px 24px;
+      display: flex; flex-direction: column;
+    }
+    .testi-stars { color: var(--gold); font-size: .85rem; letter-spacing: 3px; margin-bottom: 14px; }
+    .testi-txt   { font-size: .97rem; color: var(--body); line-height: 1.75; flex: 1; margin-bottom: 20px; }
+    .testi-sep   { height: 1.5px; background: var(--line); margin-bottom: 16px; }
+    .testi-nom   { font-size: .9rem; font-weight: 700; color: var(--ink); }
+    .testi-city  { font-size: .78rem; color: var(--mid); margin-top: 3px; }
+
+    /* ═══ FAQ ═══ */
+    .faq-wrap  { background: var(--cream); }
+    .faq-inner { max-width: 700px; margin: 44px auto 0; }
+    .faq-item  { border-top: 2px solid var(--line); }
+    .faq-item:last-child { border-bottom: 2px solid var(--line); }
+    .faq-item summary {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      padding: 20px 0; list-style: none; cursor: pointer; user-select: none;
+      font-size: 1rem; font-weight: 600; color: var(--ink); line-height: 1.45;
+    }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-ico-btn {
+      width: 28px; height: 28px; min-width: 28px; border-radius: 50%;
+      background: var(--line); display: flex; align-items: center; justify-content: center;
+      color: var(--mid); transition: background .2s, transform .25s;
+    }
+    .faq-item[open] .faq-ico-btn { background: var(--navy); color: white; transform: rotate(45deg); }
+    .faq-resp { padding-bottom: 20px; font-size: .97rem; color: var(--body); line-height: 1.75; }
+
+    /* ═══ DATOS / AUTORIDAD ═══ */
+    .datos-wrap { background: var(--warm-alt); padding-top: 0; }
+    .datos-grid {
+      display: grid; grid-template-columns: repeat(3,1fr); gap: 2px;
+      border-radius: var(--r-lg); overflow: hidden;
+      border: 2px solid var(--line); margin-top: 44px;
+    }
+    .dato-cell { background: var(--white); padding: 28px 20px; text-align: center; border-right: 2px solid var(--line); }
+    .dato-cell:last-child { border-right: none; }
+    .dato-num { font-size: 2rem; font-weight: 800; letter-spacing: -.04em; color: var(--navy); }
+    .dato-lbl { font-size: .8rem; color: var(--body); line-height: 1.5; margin-top: 6px; }
+    .dato-src { font-size: .62rem; color: var(--faint); margin-top: 4px; }
+
+    /* ═══ CTA FINAL ═══ */
+    .cta-final-wrap { background: var(--navy); text-align: center; }
+    .cta-final-actions {
+      display: flex; flex-direction: column; align-items: center; gap: 12px;
+      margin-top: 36px;
+    }
+    @media (min-width: 480px) { .cta-final-actions { flex-direction: row; justify-content: center; } }
+    /* Número grande en CTA final */
+    .cta-phone {
+      display: flex; align-items: center; gap: 10px;
+      font-size: clamp(1.3rem, 4vw, 2rem); font-weight: 800; color: white;
+      text-decoration: none; margin-top: 28px;
+      background: rgba(255,255,255,.1); border: 2px solid rgba(255,255,255,.2);
+      border-radius: var(--r-lg); padding: 16px 32px;
+      transition: background .15s, border-color .15s;
+    }
+    .cta-phone:hover { background: rgba(255,255,255,.18); border-color: rgba(255,255,255,.4); }
+    .cta-trust {
+      display: flex; gap: 18px; justify-content: center; flex-wrap: wrap;
+      margin-top: 24px;
+    }
+    .cta-trust-item { font-size: .78rem; color: rgba(255,255,255,.4); font-weight: 500; }
+
+    /* ═══ FOOTER ═══ */
+    .footer { background: var(--black); padding: 40px 0; border-top: 1px solid rgba(255,255,255,.06); }
+    .footer-inner { display: flex; flex-direction: column; gap: 16px; align-items: center; text-align: center; }
+    @media (min-width: 640px) { .footer-inner { flex-direction: row; justify-content: space-between; text-align: left; } }
+    .footer-brand { font-size: .85rem; font-weight: 600; color: rgba(255,255,255,.6); }
+    .footer-brand em { font-style: normal; color: rgba(176,125,32,.8); }
+    .footer-links { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+    .footer-links a { font-size: .8rem; color: rgba(255,255,255,.35); transition: color .2s; }
+    .footer-links a:hover { color: rgba(255,255,255,.7); }
+    .footer-legal { font-size: .65rem; color: rgba(255,255,255,.15); text-align: center; margin-top: 20px; }
+
+    /* ═══ STICKY BAR MOBILE ═══ */
+    .sticky {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+      background: var(--white); border-top: 2px solid var(--line);
+      padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+      display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 8px;
+    }
+    @media (min-width: 640px) { .sticky { display: none; } }
+    .sb {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 4px; padding: 10px 6px; border-radius: var(--r); border: none;
+      font-family: var(--font); font-size: .62rem; font-weight: 800; letter-spacing: .03em;
+      text-transform: uppercase; transition: background .12s; min-height: 56px;
+    }
+    .sb-llamar { background: var(--navy-lt); color: var(--navy); }
+    .sb-llamar:hover { background: #dde6f5; }
+    .sb-main   { background: var(--navy); color: white; border-radius: var(--r-lg); font-size: .75rem; }
+    .sb-main:hover { background: var(--navy-dk); }
+    .sb-sms    { background: var(--gold-lt); color: var(--gold-dk); }
+    .sb-sms:hover { background: #f5e7c0; }
+
+    /* ═══════════════════════════════════════
+       TYPEFORM OVERLAY — Claro, legible, 50-85
+       Fondo blanco cálido + texto oscuro
+       ═══════════════════════════════════════ */
+    .tf-overlay {
+      position: fixed; inset: 0; z-index: 9999;
+      background: var(--cream);
+      display: flex; flex-direction: column;
+      transform: translateY(100%);
+      transition: transform .4s var(--ease);
+    }
+    .tf-overlay.open { transform: translateY(0); }
+
+    /* Barra de progreso navy */
+    .tf-barra-prog { height: 5px; background: var(--line-dk); flex-shrink: 0; }
+    .tf-prog-fill  { height: 100%; background: var(--navy); transition: width .5s var(--ease); width: 0%; }
+
+    /* Cabecera — fondo blanco, borde suave */
+    .tf-cabeza {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 22px; flex-shrink: 0;
+      background: var(--white); border-bottom: 2px solid var(--line);
+    }
+    .tf-cabeza-info { display: flex; align-items: center; gap: 10px; }
+    .tf-cabeza-foto { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; border: 2px solid var(--gold); }
+    .tf-cabeza-nom  { font-size: .88rem; font-weight: 700; color: var(--ink); }
+    .tf-cerrar {
+      width: 40px; height: 40px; border-radius: 50%;
+      background: var(--warm-alt); border: 2px solid var(--line); color: var(--mid);
+      display: flex; align-items: center; justify-content: center;
+      transition: background .15s, border-color .15s; cursor: pointer;
+    }
+    .tf-cerrar:hover { background: var(--line); border-color: var(--line-dk); color: var(--ink); }
+
+    .tf-contenido {
+      flex: 1; overflow: hidden; position: relative; display: flex; flex-direction: column;
+      background: var(--cream);
+    }
+
+    .tf-paso {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column; justify-content: center;
+      padding: 36px 28px 28px; overflow-y: auto;
+      opacity: 0; transform: translateY(28px);
+      transition: opacity .35s var(--ease), transform .35s var(--ease);
+      pointer-events: none;
+    }
+    .tf-paso.activo { opacity: 1; transform: none; pointer-events: all; position: relative; flex: 1; }
+    .tf-paso.salida { opacity: 0; transform: translateY(-28px); position: absolute; }
+
+    /* Número de paso */
+    .tf-num-paso {
+      font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 10px;
+    }
+
+    /* Pregunta — grande y oscura */
+    .tf-pregunta {
+      font-size: clamp(1.6rem, 5vw, 2.4rem);
+      font-weight: 800; color: var(--ink); line-height: 1.15; margin-bottom: 36px;
+    }
+    .tf-pregunta em { font-style: normal; color: var(--navy); }
+
+    /* Input de texto sobre fondo blanco */
+    .tf-campo {
+      background: var(--white); border: 2.5px solid var(--line-dk);
+      border-radius: var(--r-lg); padding: 0 20px;
+      margin-bottom: 24px; transition: border-color .2s, box-shadow .2s;
+    }
+    .tf-campo:focus-within {
+      border-color: var(--navy);
+      box-shadow: 0 0 0 4px rgba(27,58,107,.1);
+    }
+    .tf-input {
+      background: transparent; border: none; outline: none;
+      font-family: var(--font); font-size: 1.5rem; font-weight: 600; color: var(--ink);
+      width: 100%; padding: 18px 0;
+    }
+    .tf-input::placeholder { color: var(--faint); font-weight: 400; }
+
+    /* Cards de opción — blancas con borde claro */
+    .tf-opciones { display: flex; flex-direction: column; gap: 12px; }
+    .tf-opcion {
+      display: flex; align-items: center; gap: 16px;
+      padding: 18px 20px; min-height: 68px;
+      border-radius: var(--r-lg);
+      background: var(--white); border: 2.5px solid var(--line-dk);
+      cursor: pointer; transition: border-color .15s, background .15s, box-shadow .15s;
+    }
+    .tf-opcion:hover {
+      border-color: var(--navy); background: var(--navy-lt);
+      box-shadow: 0 2px 12px rgba(27,58,107,.1);
+    }
+    .tf-opcion.sel {
+      border-color: var(--navy); background: var(--navy-lt);
+      box-shadow: 0 2px 16px rgba(27,58,107,.15);
+    }
+    .tf-letra {
+      width: 32px; height: 32px; border-radius: 8px; flex-shrink: 0;
+      border: 2px solid var(--line-dk); background: var(--warm-alt);
+      display: flex; align-items: center; justify-content: center;
+      font-size: .75rem; font-weight: 800; color: var(--mid);
+    }
+    .tf-opcion:hover .tf-letra { border-color: var(--navy); color: var(--navy); background: white; }
+    .tf-opcion.sel .tf-letra   { background: var(--navy); border-color: var(--navy); color: white; }
+    .tf-opcion-txt { font-size: 1.05rem; font-weight: 600; color: var(--body); line-height: 1.35; }
+    .tf-opcion:hover .tf-opcion-txt { color: var(--navy); }
+    .tf-opcion.sel .tf-opcion-txt   { color: var(--navy); font-weight: 700; }
+
+    /* Botón siguiente — navy grande */
+    .tf-siguiente {
+      display: inline-flex; align-items: center; gap: 9px;
+      background: var(--navy); color: white; border: none;
+      padding: 16px 32px; min-height: 58px; border-radius: var(--r-lg);
+      font-family: var(--font); font-size: 1.05rem; font-weight: 800;
+      cursor: pointer; margin-top: 28px;
+      box-shadow: 0 4px 20px rgba(27,58,107,.3);
+      transition: background .15s, transform .1s, box-shadow .15s;
+    }
+    .tf-siguiente:hover  { background: var(--navy-dk); box-shadow: 0 6px 26px rgba(27,58,107,.4); }
+    .tf-siguiente:active { transform: scale(.98); }
+    .tf-siguiente:disabled { opacity: .35; cursor: not-allowed; transform: none; box-shadow: none; }
+
+    /* Pantalla de éxito — fondo crema */
+    .tf-exito {
+      display: none; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 48px 28px; text-align: center; flex: 1;
+      background: var(--cream);
+    }
+    .tf-exito.show { display: flex; }
+    .tf-chk {
+      width: 84px; height: 84px; border-radius: 50%;
+      background: var(--green-lt); border: 3px solid var(--green);
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 32px; animation: pop .5s var(--ease) forwards;
+    }
+    .tf-chk svg { color: var(--green); }
+    .tf-exito h2 { font-size: 2rem; font-weight: 800; color: var(--ink); margin-bottom: 14px; }
+    .tf-exito p  { font-size: 1.05rem; color: var(--body); line-height: 1.75; max-width: 340px; margin: 0 auto 36px; }
+    .tf-exito-btns { display: flex; flex-direction: column; gap: 12px; width: 100%; max-width: 320px; }
+    .tf-exito-btns a {
+      display: flex; align-items: center; justify-content: center; gap: 9px;
+      padding: 16px 24px; min-height: 58px; border-radius: var(--r-lg);
+      font-size: 1rem; font-weight: 800; transition: opacity .15s;
+    }
+    .tf-exito-btns a:hover { opacity: .88; }
+    .tf-btn-llamar { background: var(--navy); color: white; box-shadow: 0 4px 20px rgba(27,58,107,.3); }
+    .tf-btn-sms    { background: var(--gold-lt); color: var(--gold-dk); border: 2.5px solid rgba(176,125,32,.3); }
+
+    /* Pie del overlay */
+    .tf-pie {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 22px calc(12px + env(safe-area-inset-bottom));
+      background: var(--white); border-top: 2px solid var(--line); flex-shrink: 0;
+    }
+    .tf-pie-info { font-size: .75rem; color: var(--mid); font-weight: 500; }
+    .tf-nav { display: flex; gap: 8px; }
+    .tf-nav-btn {
+      width: 40px; height: 40px; border-radius: var(--r);
+      background: var(--warm-alt); border: 2px solid var(--line); cursor: pointer;
+      color: var(--mid); display: flex; align-items: center; justify-content: center;
+      transition: background .15s, border-color .15s;
+    }
+    .tf-nav-btn:hover { background: var(--line); border-color: var(--line-dk); color: var(--ink); }
+    .tf-nav-btn:disabled { opacity: .3; cursor: default; }
+  </style>
+</head>
+<body>
+
+<!-- ══ NAV ══ -->
+<nav class="nav" id="mainNav">
+  <div class="nav-inner">
+    <div class="nav-brand">
+      Mario Barrera
+      <span>Asesor de Seguros · Texas</span>
+    </div>
+    <a href="tel:+18888561999" class="nav-phone">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14v2.92z"/></svg>
+      Llamar gratis
+    </a>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section class="hero">
+
+  <div class="perfil-pill">
+    <img src="img/mario-real.jpg" alt="Mario Barrera" class="perfil-foto">
+    <div class="perfil-info">
+      <p class="perfil-nombre">Mario Barrera</p>
+      <p class="perfil-rol">Asesor de Seguros · 15 años en Texas</p>
+      <div class="perfil-activo">
+        <span class="dot-verde"></span>Disponible hoy
+      </div>
+    </div>
+  </div>
+
+  <p class="hero-tag">Houston · Dallas · Austin · Texas</p>
+
+  <h1>¿Alguien te explicó<br>bien tu seguro?<br><em>Yo sí lo hago.</em></h1>
+
+  <p class="hero-desc">
+    Revisamos juntos lo que tienes — en español, sin presiones y sin costo.
+    Te digo exactamente si estás bien protegido o qué necesitas cambiar.
+  </p>
+
+  <!-- Número GRANDE — prioridad para 50-85 años -->
+  <a href="tel:+18888561999" class="hero-phone-big">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14v2.92z"/></svg>
+    1-888-856-1999
+  </a>
+
+  <p class="hero-o-sms">o si prefieres texto:</p>
+
+  <a href="sms:+18888561999?body=Hola Mario, vi tu página y quiero una asesoría gratuita de seguros." class="hero-sms-btn">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+    Enviar SMS a Mario
+  </a>
+
+  <div class="hero-chips">
+    <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg> Sin compromiso</span>
+    <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg> En español</span>
+    <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg> 100% gratis</span>
+    <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg> Desde $30/mes</span>
+  </div>
+
+</section>
+
+<!-- ══ STATS ══ -->
+<div class="stats-wrap">
+  <div class="wrap">
+    <div class="stats-grid">
+      <div class="stat anim"><span class="stat-n">15<sup>+</sup></span><span class="stat-l">Años ayudando familias latinas en Texas</span></div>
+      <div class="stat anim d1"><span class="stat-n">500<sup>+</sup></span><span class="stat-l">Familias protegidas en Houston, Dallas y Austin</span></div>
+      <div class="stat anim d2"><span class="stat-n">$30</span><span class="stat-l">Cobertura desde $30 al mes</span></div>
+      <div class="stat anim d3"><span class="stat-n">85</span><span class="stat-l">Años — edad máxima de cobertura</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ PROBLEMA ══ -->
+<section class="section problema-wrap">
+  <div class="wrap">
+    <div class="problema-grid">
+      <div class="anim">
+        <span class="label">El problema real</span>
+        <h2 class="titulo">Muchas familias tienen<br>seguros que <em>no las protegen</em><br>cuando más lo necesitan.</h2>
+        <p class="subtitulo">No es tu culpa. Nadie te hizo una revisión honesta. Eso cambia aquí.</p>
+        <ul class="prob-list">
+          <li class="prob-item">
+            <div class="prob-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+            <p class="prob-txt"><strong>El seguro del trabajo</strong> se cancela si te despiden o cambias de empleo — tu familia queda sin nada de un día para otro.</p>
+          </li>
+          <li class="prob-item">
+            <div class="prob-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+            <p class="prob-txt">Nadie te explicó los <strong>beneficios en vida</strong> — dinero que puedes cobrar hoy, no solo cuando fallezcas.</p>
+          </li>
+          <li class="prob-item">
+            <div class="prob-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+            <p class="prob-txt">Muchos creen que <strong>no califican</strong> por su edad, salud o situación — y sí califican.</p>
+          </li>
+          <li class="prob-item">
+            <div class="prob-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+            <p class="prob-txt">Tu familia descubre los huecos de tu cobertura <strong>cuando más los necesita</strong> — y ya es tarde.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="anim d2">
+        <div class="foto-marco">
+          <img src="img/mario-real.jpg" alt="Mario Barrera — Asesor de Seguros Texas" loading="lazy">
+          <div class="foto-tag">
+            <div class="foto-tag-text">
+              <p>Mario Barrera</p>
+              <p>15 años asesorando familias en Texas</p>
+            </div>
+            <span class="foto-badge">Disponible hoy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ OBJECIONES — sección especial para 50-85 años ══ -->
+<section class="section obj-wrap">
+  <div class="wrap">
+    <div class="anim" style="text-align:center">
+      <span class="label">Tus preguntas más comunes</span>
+      <h2 class="titulo">Sí calificas.<br>Sí puedo <em>ayudarte.</em></h2>
+      <p class="subtitulo wrap-sm" style="margin:16px auto 0">Estas son las dudas que más escucho de personas como tú.</p>
+    </div>
+    <div class="obj-grid anim">
+      <div class="obj-card">
+        <div class="obj-ico">🎂</div>
+        <p class="obj-q">"¿No soy muy mayor para un seguro?"</p>
+        <p class="obj-a">Cubrimos de 50 a 85 años. La edad no es problema.</p>
+      </div>
+      <div class="obj-card">
+        <div class="obj-ico">🏥</div>
+        <p class="obj-q">"¿Y si tengo diabetes o presión alta?"</p>
+        <p class="obj-a">Sin examen médico. Calificas aunque tengas condiciones.</p>
+      </div>
+      <div class="obj-card">
+        <div class="obj-ico">💵</div>
+        <p class="obj-q">"¿Puedo pagar un seguro?"</p>
+        <p class="obj-a">Desde $30 al mes. Menos que una pizza a la semana.</p>
+      </div>
+      <div class="obj-card">
+        <div class="obj-ico">📋</div>
+        <p class="obj-q">"¿Es complicado entender todo esto?"</p>
+        <p class="obj-a">Te explico todo en español, con calma y sin tecnicismos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ ASESORÍA HONESTA (dark) ══ -->
+<section class="section asesoria-wrap">
+  <div class="wrap">
+    <div class="asesoria-grid">
+      <div class="anim">
+        <div class="dark-badge"><span class="dark-badge-dot"></span>Diferente a los demás agentes</div>
+        <h2 class="dark-h2">Primero reviso<br>lo que tienes.<br>Luego te <em>asesoro.</em></h2>
+        <p class="dark-desc">Cualquier agente te vende algo. Yo primero reviso lo que ya tienes. Si está bien, te lo digo. Si tiene huecos, también. Esa honestidad es lo que me diferencia en 15 años de carrera.</p>
+        <ul class="check-list">
+          <li class="check-item">
+            <div class="check-dot"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></div>
+            <p>Reviso TODAS tus pólizas actuales — del trabajo y personales</p>
+          </li>
+          <li class="check-item">
+            <div class="check-dot"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></div>
+            <p>Identifico qué te cubre, qué no te cubre y dónde estás pagando de más</p>
+          </li>
+          <li class="check-item">
+            <div class="check-dot"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></div>
+            <p>Si ya tienes buena cobertura, solo te lo confirmo — sin venderte nada</p>
+          </li>
+          <li class="check-item">
+            <div class="check-dot"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></div>
+            <p>Gratis, en español y sin ningún compromiso de tu parte</p>
+          </li>
+        </ul>
+      </div>
+      <div class="mock-wrap anim d2">
+        <p class="mock-lbl">Ejemplo de revisión real</p>
+        <div class="mock-row"><span class="mock-texto">Seguro del trabajo</span><span class="tag-warn">Hueco detectado</span></div>
+        <div class="mock-row"><span class="mock-texto">Cobertura por fallecimiento</span><span class="tag-bad">Insuficiente</span></div>
+        <div class="mock-row"><span class="mock-texto">Beneficios en vida</span><span class="tag-bad">No tiene</span></div>
+        <div class="mock-row"><span class="mock-texto">Sin examen médico</span><span class="tag-ok">Disponible</span></div>
+        <div class="mock-row"><span class="mock-texto">Final Expense desde $30/mes</span><span class="tag-ok">Califica</span></div>
+        <button class="btn btn-gold btn-full" style="margin-top:18px;border-radius:var(--r)" onclick="openForm()">Revisar mi situación — gratis</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CÓMO FUNCIONA ══ -->
+<section class="section como-wrap">
+  <div class="wrap">
+    <div class="anim" style="text-align:center">
+      <span class="label">El proceso</span>
+      <h2 class="titulo">Tres pasos simples<br>para proteger a <em>tu familia.</em></h2>
+      <p class="subtitulo wrap-sm" style="margin:16px auto 0">Sin papeleo complicado. Sin exámenes médicos. Sin esperar semanas.</p>
+    </div>
+    <div class="pasos anim">
+      <div class="paso">
+        <span class="paso-n">01</span>
+        <div class="paso-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14v2.92z"/></svg></div>
+        <p class="paso-tit">Me llamas o me mandas un SMS</p>
+        <p class="paso-txt">Llamas al 1-888-856-1999 o mandas un mensaje de texto. Me dices cómo estás y qué te preocupa. 10 a 15 minutos, sin compromiso.</p>
+        <span class="paso-tag">Gratis · En español</span>
+      </div>
+      <div class="paso">
+        <span class="paso-n">02</span>
+        <div class="paso-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
+        <p class="paso-tit">Revisamos tu cobertura juntos</p>
+        <p class="paso-txt">Reviso lo que ya tienes. Identifico huecos, coberturas duplicadas y beneficios que quizás no conoces. Todo en español, con calma.</p>
+        <span class="paso-tag">Análisis completo</span>
+      </div>
+      <div class="paso">
+        <span class="paso-n">03</span>
+        <div class="paso-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
+        <p class="paso-tit">Tu familia queda protegida</p>
+        <p class="paso-txt">Si necesitas algo, te presento opciones reales desde $30 al mes. Si ya tienes buena cobertura, te lo confirmo. Tú decides siempre.</p>
+        <span class="paso-tag">Desde $30/mes</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ COBERTURAS ══ -->
+<section class="section cob-wrap">
+  <div class="wrap">
+    <div class="cob-header anim">
+      <span class="label lt">Lo que ofrezco</span>
+      <h2 class="titulo lt">No te vendo algo.<br>Te doy <em>claridad.</em></h2>
+      <p class="subtitulo lt">Reviso tu situación antes de ofrecerte nada.</p>
+    </div>
+    <div class="cob-grid">
+      <div class="cob-card anim">
+        <div class="cob-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
+        <p class="cob-tit">Asesoría de tu situación actual</p>
+        <p class="cob-txt">Revisamos lo que tienes antes de ofrecerte nada. Si ya tienes buena cobertura, te lo digo honestamente.</p>
+        <span class="cob-tag">Completamente gratis</span>
+      </div>
+      <div class="cob-card anim d1">
+        <div class="cob-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+        <p class="cob-tit">Beneficios en vida</p>
+        <p class="cob-txt">Cobras dinero hoy si te diagnostican cáncer, infarto u otra enfermedad grave. No es un préstamo — es parte de tu póliza.</p>
+        <span class="cob-tag">Dinero cuando lo necesitas</span>
+      </div>
+      <div class="cob-card anim d2">
+        <div class="cob-ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>
+        <p class="cob-tit">Sin examen médico</p>
+        <p class="cob-txt">Planes para personas de 50 a 85 años. Con diabetes, presión alta u otras condiciones. Aprobación rápida, muchas veces el mismo día.</p>
+        <span class="cob-tag">Desde $30 al mes</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TESTIMONIOS ══ -->
+<section class="section testi-wrap">
+  <div class="wrap">
+    <div class="anim" style="text-align:center">
+      <span class="label">Lo que dicen</span>
+      <h2 class="titulo">Familias que ya<br><em>están tranquilas.</em></h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card anim">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-txt">"Yo pensaba que no podía tener seguro por la presión alta y mis años. Mario me revisó todo en español y en 20 minutos tenía mi cobertura. Ahora sé que mis hijos estarán bien."</p>
+        <div class="testi-sep"></div>
+        <p class="testi-nom">Rosa M., 64 años</p>
+        <p class="testi-city">Houston, Texas</p>
+      </div>
+      <div class="testi-card anim d1">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-txt">"Tenía el seguro del trabajo y creía que era suficiente. Mario me mostró que si me despedían lo perdía todo. Ahora tengo mi propio seguro con beneficios que puedo usar hoy mismo."</p>
+        <div class="testi-sep"></div>
+        <p class="testi-nom">Carlos V., 58 años</p>
+        <p class="testi-city">Dallas, Texas</p>
+      </div>
+      <div class="testi-card anim d2">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-txt">"Lo que más me gustó es que Mario no me vendió de inmediato. Primero revisó lo que ya tenía. Esa honestidad fue lo que me dio confianza para seguir adelante con él."</p>
+        <div class="testi-sep"></div>
+        <p class="testi-nom">Elena R., 71 años</p>
+        <p class="testi-city">Austin, Texas</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FAQ ══ -->
+<section class="section faq-wrap">
+  <div class="wrap">
+    <div class="anim" style="text-align:center">
+      <span class="label">Preguntas frecuentes</span>
+      <h2 class="titulo">Lo que quieres saber<br><em>antes de llamar.</em></h2>
+    </div>
+    <div class="faq-inner anim">
+      <details class="faq-item">
+        <summary>¿Tengo que comprar algo para que me asesores?<div class="faq-ico-btn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div></summary>
+        <p class="faq-resp">No. La asesoría y la cotización son 100% gratis y sin compromiso. Si al final no necesitas nada, te lo digo honestamente. Mi trabajo es darte claridad.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Puedo tener seguro si soy mayor de 65 años?<div class="faq-ico-btn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div></summary>
+        <p class="faq-resp">Sí. Los planes de final expense están diseñados específicamente para personas de 50 a 85 años. La edad no es un obstáculo — es justo el mercado que trabajo.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Cuánto cuesta un seguro de gastos finales en Texas?<div class="faq-ico-btn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div></summary>
+        <p class="faq-resp">Entre $30 y $100 al mes para personas de 50 a 85 años. El costo depende de la edad, la cobertura y tu salud general. Un funeral en Texas cuesta entre $9,000 y $12,000 — esta cobertura protege a tu familia de ese gasto.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Qué son los beneficios en vida?<div class="faq-ico-btn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div></summary>
+        <p class="faq-resp">Son coberturas en ciertos seguros que te permiten recibir dinero mientras estás vivo — si te diagnostican cáncer, infarto u otra enfermedad grave. No es un préstamo: es parte del beneficio de tu póliza. Puedes usarlo para gastos médicos, renta o lo que necesites.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Puedo tener seguro aunque tenga diabetes o presión alta?<div class="faq-ico-btn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div></summary>
+        <p class="faq-resp">Sí. Los planes de final expense no requieren examen médico completo. Están disponibles incluso con diabetes, presión alta, problemas del corazón u otras condiciones pre-existentes.</p>
+      </details>
+      <details class="faq-item">
+        <summary>¿Necesito número de seguro social o documentos?<div class="faq-ico-btn"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></div></summary>
+        <p class="faq-resp">Depende del tipo de póliza. Hay opciones disponibles para familias en diferentes situaciones migratorias en Texas. Lo revisamos juntos con total confidencialidad y sin juicios.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ══ DATOS AUTORIDAD ══ -->
+<section class="datos-wrap section" style="padding-top:0">
+  <div class="wrap">
+    <div class="datos-grid anim">
+      <div class="dato-cell">
+        <p class="dato-num">54%</p>
+        <p class="dato-lbl">de hispanos en EUA sin seguro de vida</p>
+        <p class="dato-src">LIMRA 2024</p>
+      </div>
+      <div class="dato-cell">
+        <p class="dato-num">$12,000</p>
+        <p class="dato-lbl">costo promedio de un funeral en Texas</p>
+        <p class="dato-src">NFDA 2024</p>
+      </div>
+      <div class="dato-cell">
+        <p class="dato-num">73%</p>
+        <p class="dato-lbl">de familias hispanas sin cobertura suficiente</p>
+        <p class="dato-src">LIMRA 2024</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA FINAL ══ -->
+<section class="section cta-final-wrap">
+  <div class="wrap anim" style="text-align:center">
+    <span class="label lt">Empieza hoy</span>
+    <h2 class="titulo lt" style="max-width:600px;margin:0 auto">Tu familia merece saber<br>que está <em>protegida.</em></h2>
+    <p class="subtitulo lt" style="max-width:440px;margin:16px auto 0">Asesoría gratis. En español. Con alguien que lleva 15 años siendo honesto con familias latinas en Texas.</p>
+
+    <!-- Número GRANDE en el CTA final -->
+    <a href="tel:+18888561999" class="cta-phone">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14v2.92z"/></svg>
+      1-888-856-1999
+    </a>
+
+    <div class="cta-final-actions">
+      <a href="sms:+18888561999?body=Hola Mario, vi tu página y quiero una asesoría gratuita." class="btn btn-ghost-light">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+        Enviar SMS
+      </a>
+      <button class="btn btn-gold" onclick="openForm()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        Llenar formulario
+      </button>
+    </div>
+
+    <div class="cta-trust">
+      <span class="cta-trust-item">Sin compromiso</span>
+      <span class="cta-trust-item">·</span>
+      <span class="cta-trust-item">En español</span>
+      <span class="cta-trust-item">·</span>
+      <span class="cta-trust-item">Gratis</span>
+      <span class="cta-trust-item">·</span>
+      <span class="cta-trust-item">Respondo hoy</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <div class="footer-brand">Mario Barrera <em>·</em> Asesor de Seguros · Texas</div>
+      <div class="footer-links">
+        <a href="tel:+18888561999">1-888-856-1999</a>
+        <a href="sms:+18888561999">SMS</a>
+        <a href="https://instagram.com/mariobarrera_agente" target="_blank" rel="noopener">@mariobarrera_agente</a>
+      </div>
+    </div>
+    <p class="footer-legal">Sujeto a aprobación. Términos y condiciones aplican. © 2026 Mario Barrera Group. Houston · Dallas · Austin · Texas</p>
+  </div>
+</footer>
+
+<!-- ══ STICKY BAR MOBILE ══ -->
+<div class="sticky">
+  <a href="tel:+18888561999" class="sb sb-llamar">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14v2.92z"/></svg>
+    Llamar
+  </a>
+  <button class="sb sb-main" onclick="openForm()">Asesoría gratis</button>
+  <a href="sms:+18888561999?body=Hola Mario, quiero una asesoría gratuita." class="sb sb-sms">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+    SMS
+  </a>
+</div>
+
+<!-- ══════════════════════════════════
+     TYPEFORM OVERLAY
+══════════════════════════════════ -->
+<div class="tf-overlay" id="tfOverlay" role="dialog" aria-modal="true">
+
+  <div class="tf-barra-prog"><div class="tf-prog-fill" id="tfProgFill"></div></div>
+
+  <div class="tf-cabeza">
+    <div class="tf-cabeza-info">
+      <img src="img/mario-real.jpg" alt="Mario" class="tf-cabeza-foto">
+      <span class="tf-cabeza-nom">Mario Barrera · Asesor de Seguros</span>
+    </div>
+    <button class="tf-cerrar" onclick="closeForm()" aria-label="Cerrar formulario">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+
+  <div class="tf-contenido" id="tfContenido">
+
+    <!-- Paso 1 — Nombre -->
+    <div class="tf-paso activo" id="tfPaso0">
+      <p class="tf-num-paso">Pregunta 1 de 4</p>
+      <h2 class="tf-pregunta">¿Cómo te llamas?</h2>
+      <div class="tf-campo">
+        <input class="tf-input" id="inpNombre" type="text" placeholder="Tu nombre completo" autocomplete="given-name" autocapitalize="words">
+      </div>
+      <button class="tf-siguiente" id="btnPaso0" onclick="avanzar(0)" disabled>
+        Continuar
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+
+    <!-- Paso 2 — Teléfono -->
+    <div class="tf-paso" id="tfPaso1">
+      <p class="tf-num-paso">Pregunta 2 de 4</p>
+      <h2 class="tf-pregunta">¿A qué número<br>te <em>llamo o mando SMS?</em></h2>
+      <div class="tf-campo">
+        <input class="tf-input" id="inpTel" type="tel" placeholder="(713) 000-0000" autocomplete="tel" inputmode="tel">
+      </div>
+      <button class="tf-siguiente" id="btnPaso1" onclick="avanzar(1)" disabled>
+        Continuar
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+
+    <!-- Paso 3 — Ciudad -->
+    <div class="tf-paso" id="tfPaso2">
+      <p class="tf-num-paso">Pregunta 3 de 4</p>
+      <h2 class="tf-pregunta">¿En qué ciudad<br><em>estás?</em></h2>
+      <div class="tf-opciones">
+        <div class="tf-opcion" onclick="elegir(this,2,'Houston')"><div class="tf-letra">A</div><span class="tf-opcion-txt">Houston</span></div>
+        <div class="tf-opcion" onclick="elegir(this,2,'Dallas')"><div class="tf-letra">B</div><span class="tf-opcion-txt">Dallas</span></div>
+        <div class="tf-opcion" onclick="elegir(this,2,'Austin')"><div class="tf-letra">C</div><span class="tf-opcion-txt">Austin</span></div>
+        <div class="tf-opcion" onclick="elegir(this,2,'Otra ciudad en Texas')"><div class="tf-letra">D</div><span class="tf-opcion-txt">Otra ciudad en Texas</span></div>
+      </div>
+    </div>
+
+    <!-- Paso 4 — Situación -->
+    <div class="tf-paso" id="tfPaso3">
+      <p class="tf-num-paso">Pregunta 4 de 4</p>
+      <h2 class="tf-pregunta">¿Cómo está tu seguro<br><em>ahora mismo?</em></h2>
+      <div class="tf-opciones">
+        <div class="tf-opcion" onclick="elegir(this,3,'No tengo seguro')"><div class="tf-letra">A</div><span class="tf-opcion-txt">No tengo seguro</span></div>
+        <div class="tf-opcion" onclick="elegir(this,3,'Solo el del trabajo')"><div class="tf-letra">B</div><span class="tf-opcion-txt">Solo tengo el del trabajo</span></div>
+        <div class="tf-opcion" onclick="elegir(this,3,'Tengo uno propio')"><div class="tf-letra">C</div><span class="tf-opcion-txt">Tengo uno propio</span></div>
+        <div class="tf-opcion" onclick="elegir(this,3,'No sé bien lo que tengo')"><div class="tf-letra">D</div><span class="tf-opcion-txt">No sé bien lo que tengo</span></div>
+      </div>
+    </div>
+
+    <!-- Éxito -->
+    <div class="tf-exito" id="tfExito">
+      <div class="tf-chk">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>
+      </div>
+      <h2>¡Listo, <span id="nombreExito">amigo</span>!</h2>
+      <p>Recibí tu información. Te contactaré hoy mismo por llamada o SMS para revisar tu situación sin compromiso.</p>
+      <div class="tf-exito-btns">
+        <a href="tel:+18888561999" class="tf-btn-llamar">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.72A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14v2.92z"/></svg>
+          Llamar a Mario ahora
+        </a>
+        <a id="smsExito" href="sms:+18888561999" class="tf-btn-sms">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+          Mandar SMS ahora
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="tf-pie">
+    <span class="tf-pie-info" id="tfPieInfo">Confidencial · En español · Sin compromiso</span>
+    <div class="tf-nav">
+      <button class="tf-nav-btn" id="tfAnterior" onclick="retroceder()" disabled title="Anterior">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+
+<script>
+'use strict';
+
+/* ── Nav scroll ── */
+const mainNav = document.getElementById('mainNav');
+window.addEventListener('scroll', () => mainNav.classList.toggle('scrolled', window.scrollY > 10), { passive: true });
+
+/* ── Scroll reveal ── */
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); obs.unobserve(e.target); } });
+}, { threshold: .07, rootMargin: '0px 0px -28px 0px' });
+document.querySelectorAll('.anim').forEach(el => obs.observe(el));
+
+/* ── FAQ ── */
+document.querySelectorAll('.faq-item').forEach(item => {
+  item.addEventListener('toggle', () => {
+    if (item.open) document.querySelectorAll('.faq-item[open]').forEach(o => { if (o !== item) o.removeAttribute('open'); });
+  });
+});
+
+/* ══ TYPEFORM ENGINE ══ */
+const TOTAL = 4;
+let paso = 0;
+const datos = { nombre: '', tel: '', ciudad: '', situacion: '' };
+const claves = ['nombre', 'tel', 'ciudad', 'situacion'];
+
+function openForm() {
+  document.getElementById('tfOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  actualizarProg();
+  setTimeout(() => { const i = document.querySelector('#tfPaso0 .tf-input'); if (i) i.focus(); }, 420);
+}
+function closeForm() {
+  document.getElementById('tfOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function actualizarProg() {
+  document.getElementById('tfProgFill').style.width = ((paso / TOTAL) * 100) + '%';
+  document.getElementById('tfAnterior').disabled = paso === 0;
+  document.getElementById('tfPieInfo').textContent =
+    paso >= TOTAL ? 'Confidencial · En español · Sin compromiso'
+                  : `Paso ${paso + 1} de ${TOTAL} · Confidencial`;
+}
+
+function irAPaso(idx) {
+  const pasos = document.querySelectorAll('.tf-paso');
+  const exito  = document.getElementById('tfExito');
+
+  if (idx >= TOTAL) {
+    pasos.forEach(p => { p.classList.remove('activo'); p.classList.add('salida'); });
+    exito.classList.add('show');
+    document.getElementById('tfProgFill').style.width = '100%';
+    document.getElementById('tfAnterior').disabled = true;
+    guardar();
+    return;
+  }
+
+  // Salir del paso actual
+  if (paso < TOTAL) {
+    const actual = document.getElementById('tfPaso' + paso);
+    if (actual) { actual.classList.remove('activo'); actual.classList.add('salida'); }
+    setTimeout(() => { if (actual) actual.classList.remove('salida'); }, 380);
+  }
+
+  paso = idx;
+  const siguiente = document.getElementById('tfPaso' + paso);
+  if (siguiente) {
+    siguiente.classList.remove('salida');
+    requestAnimationFrame(() => siguiente.classList.add('activo'));
+    const inp = siguiente.querySelector('.tf-input');
+    if (inp) setTimeout(() => inp.focus(), 350);
+  }
+  actualizarProg();
+}
+
+function avanzar(pasoIdx) {
+  if (!datos[claves[pasoIdx]]) return;
+  irAPaso(pasoIdx + 1);
+}
+function retroceder() { if (paso > 0) irAPaso(paso - 1); }
+
+/* Inputs de texto */
+function bindInput(inputId, btnId, clave) {
+  const inp = document.getElementById(inputId);
+  const btn = document.getElementById(btnId);
+  if (!inp) return;
+  inp.addEventListener('input', () => {
+    const v = inp.value.trim();
+    datos[clave] = v;
+    btn.disabled = v.length < 2;
+  });
+  inp.addEventListener('keydown', e => { if (e.key === 'Enter' && !btn.disabled) btn.click(); });
+}
+bindInput('inpNombre', 'btnPaso0', 'nombre');
+
+/* Teléfono */
+const inpTel = document.getElementById('inpTel');
+const btnTel = document.getElementById('btnPaso1');
+if (inpTel) {
+  inpTel.addEventListener('input', () => {
+    let v = inpTel.value.replace(/\D/g,'').slice(0,10);
+    if (v.length >= 7)      v = `(${v.slice(0,3)}) ${v.slice(3,6)}-${v.slice(6)}`;
+    else if (v.length >= 4) v = `(${v.slice(0,3)}) ${v.slice(3)}`;
+    else if (v.length)      v = `(${v}`;
+    inpTel.value = v;
+    const limpio = v.replace(/\D/g,'');
+    datos.tel = limpio.length === 10 ? v : '';
+    btnTel.disabled = limpio.length !== 10;
+  });
+  inpTel.addEventListener('keydown', e => { if (e.key === 'Enter' && !btnTel.disabled) btnTel.click(); });
+}
+
+/* Cards — auto-avanza */
+function elegir(el, pasoIdx, valor) {
+  datos[claves[pasoIdx]] = valor;
+  el.closest('.tf-opciones').querySelectorAll('.tf-opcion').forEach(c => c.classList.remove('sel'));
+  el.classList.add('sel');
+  setTimeout(() => irAPaso(pasoIdx + 1), 300);
+}
+
+/* Guardar y armar link SMS */
+function guardar() {
+  const nombre = datos.nombre || 'amigo';
+  document.getElementById('nombreExito').textContent = nombre.split(' ')[0];
+  const msg = encodeURIComponent(`Hola Mario, soy ${datos.nombre} de ${datos.ciudad}. Vi tu página y quiero una asesoría gratuita. Situación: ${datos.situacion}. Mi número: ${datos.tel}.`);
+  document.getElementById('smsExito').href = `sms:+18888561999?body=${msg}`;
+  try {
+    const leads = JSON.parse(localStorage.getItem('mb_leads') || '[]');
+    leads.push({ ...datos, ts: new Date().toISOString() });
+    localStorage.setItem('mb_leads', JSON.stringify(leads));
+  } catch(_) {}
+}
+
+/* ESC para cerrar */
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeForm(); });
+</script>
+</body>
+</html>
